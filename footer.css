@@ -41,7 +41,36 @@
 }
 
 .footericons{
-    margin-top: -30px;
+    margin-top: -40px !important;
     display: flex;
     gap: 10px;
+}
+
+.footericons>div{
+    border: 2px solid rgb(79, 75, 75);
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.footericons>div>i{
+    color: rgb(118, 114, 114);
+    font-size: 10px;
+}
+
+.copyright{
+    background-color: #002f34;;
+}
+
+.copyrightflex{
+    display: flex;
+    margin: auto;
+    color: white;
+    padding: 15px 0px;
+    font-size: 12px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.copyrightflex>div>span{
+    font-weight: 700;
 }
