@@ -1,0 +1,324 @@
+{
+    "appartments" : [
+        {
+        "id": "1",
+        "price": "₹ 50,99,999",
+        "date": "Nov 28",
+        "title": "NEW 3 BHK APARTMENT FOR SALE",
+        "location": "Vypin, Kochi",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/96lhnmpew9kp-IN/image;s=272x0"
+        },
+        {
+        "id": "2",
+        "price": "₹ 62,00,000",
+        "date": "Dec 04",
+        "title": "Budget friendly 4 BHK Flats in Dwarka Mor location",
+        "location": "Vipin Garden, Delhi",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+        },
+        {
+        "id": "3",
+        "price": "₹ 71,00,000",
+        "date": "Dec 06",
+        "title": "Brand New Kothi First Floor for Sale  In Sector 79 Mohali Airport Road",
+        "location": "Sector 79, Mohali",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/xiopliqoz9tf-IN/image;s=272x0"
+        },
+        {
+        "id": "4",
+        "price": "₹ 35,00,000",
+        "date": "Today",
+        "title": "Flat no.2D,Krishna enclave",
+        "location": "Baniyatoli, Ranchi",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u1888pqa8xjo1-IN/image;s=272x0"
+        },
+        {
+        "id": "5",
+        "price": "₹ 74,50,000",
+        "date": "Today",
+        "title": "2BHK READY TO MOVE IN DOSTI JADE.",
+        "location": "Mumbra, Thane",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u919ha0rditv2-IN/image;s=272x0"
+        },
+        {
+        "id": "6",
+        "price": "₹ 1,25,00,000",
+        "date": "Today",
+        "title": "3bhk luxury apartment",
+        "location": "Sector 85, Mohali",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/f5wdx24wqh6s3-IN/image;s=272x0"
+        },
+        {
+        "id": "7",
+        "price": "₹ 51,00,000",
+        "date": "Today",
+        "title": "3bhk luxurious villa in Noida Extension",
+        "location": "Noida-Greater Noida Link Rd, Noida",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/7k249prb2vks1-IN/image;s=272x0"
+        },
+        {
+        "id": "8",
+        "price": "₹ 1,30,00,000",
+        "date": "Today",
+        "title": "Elegant 3 Bhk Villa at Padamugal",
+        "location": "Vennala, Kochi",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/qfojlb6zyvg52-IN/image;s=272x0"
+        },
+        {
+        "id": "9",
+        "price": "₹ 1,35,00,000",
+        "date": "Today",
+        "title": "8 MARLA OPP CURO MALL 4 BEDROOM KOTHI",
+        "location": "Kalkidhar Avenue, Jalandhar",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/q1oheu0fagov-IN/image;s=272x0"
+        },
+        {
+        "id": "10",
+        "price": "₹ 65,00,000",
+        "date": "Today",
+        "title": "Singh Property Dealer 2 BHK MIG Flat Sale In Durgakund Varanasi",
+        "location": "Durga Kund, Varanasi",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/96lhnmpew9kp-IN/image;s=272x0"
+        },
+        {
+        "id": "11",
+        "price": "₹ 20,00,000",
+        "date": "Today",
+        "title": "Malba bachvani he 500 ft size",
+        "location": "Vallabh Gardan, Bikaner",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+        },
+        {
+        "id": "12",
+        "price": "₹ 36,99,999",
+        "date": "Today",
+        "title": "Luxurious Flat at cheap Affordable price",
+        "location": "Chinar Park, Kolkata",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/xiopliqoz9tf-IN/image;s=272x0"
+        },
+        {
+        "id": "13",
+        "price": "₹ 60,00,000",
+        "date": "Today",
+        "title": "3 Cent's (അടിപൊളി വീട് ഉദയംപേരൂർ) 1500 sqft 4 bhk Rs/- 60 lakhs",
+        "location": "Udayamperoor, Kochi",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u1888pqa8xjo1-IN/image;s=272x0"
+        },
+        {
+        "id": "14",
+        "price": "₹ 14,80,000",
+        "date": "Today",
+        "title": "Shilphata Achar gali room sale urgent sale",
+        "location": "Shil Phata, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u919ha0rditv2-IN/image;s=272x0"
+        },
+        {
+        "id": "15",
+        "price": "₹ 72,00,000",
+        "date": "Today",
+        "title": "3 BHK Apartment On Second Floor in Manzil Residency Near Manikonda",
+        "location": "Manikonda, Hyderabad",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/f5wdx24wqh6s3-IN/image;s=272x0"
+        },
+        {
+        "id": "16",
+        "price": "₹ 29,00,000",
+        "date": "Today",
+        "title": "80% LOAN  VILLA SALE @#GUDUVANCHERY #GST NEAR",
+        "location": "Tambaram, Chennai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/7k249prb2vks1-IN/image;s=272x0"
+        },
+        {
+        "id": "17",
+        "price": "₹ 72,00,000",
+        "date": "Today",
+        "title": "Available 1Bhk Sale In Chembur at 72L* Loan Possible",
+        "location": "Chembur, Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/qfojlb6zyvg52-IN/image;s=272x0"
+        },
+        {
+        "id": "18",
+        "price": "₹ 77,00,000",
+        "date": "Today",
+        "title": "Miyapur Aminpur Fully Gated Community Luxuries Flats in Prime Location",
+        "location": "Miyapur, Hyderabad",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/q1oheu0fagov-IN/image;s=272x0"
+        },
+        {
+        "id": "19",
+        "price": "₹ 48,00,000",
+        "date": "Nov 17",
+        "title": "Ready To Move 2BHK Fully Furnished@Karamadai Teachers colony",
+        "location": "Karamadai, Coimbatore",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/96lhnmpew9kp-IN/image;s=272x0"
+        },
+        {
+        "id": "20",
+        "price": "₹ 45,00,000",
+        "date": "Nov 28",
+        "title": "2bhk flat booking near KMF Nandini Milk Dairy Anjaneyanagar",
+        "location": "Anjaneya Nagar, Belagavi",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+        },
+        {
+        "id": "21",
+        "price": "₹ 2,45,00,000",
+        "date": "Nov 29",
+        "title": "10.5 marla house single in phase 4 sec 59 mohali",
+        "location": "Sector 59, Mohali",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/xiopliqoz9tf-IN/image;s=272x0"
+        },
+        {
+        "id": "22",
+        "price": "₹ 16,00,000",
+        "date": "Today",
+        "title": "1bhk in karanjarde at just 16,00,000",
+        "location": "Panvel, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u1888pqa8xjo1-IN/image;s=272x0"
+        },
+        {
+        "id": "23",
+        "price": "₹ 24,00,000",
+        "date": "Today",
+        "title": "1bhk  in karanjarde Sector 5  in just 24,00,000 panvel Navi Mumbai",
+        "location": "Karanjade, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u919ha0rditv2-IN/image;s=272x0"
+        },
+        {
+        "id": "24",
+        "price": "₹ 62,00,000",
+        "date": "Today",
+        "title": "Sai spring 2BHK in kharghar sect-35 at just Rs.62lakhs Kharghar6200000",
+        "location": "Kharghar, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/f5wdx24wqh6s3-IN/image;s=272x0"
+        },
+        {
+        "id": "25",
+        "price": "₹ 39,00,000",
+        "date": "Today",
+        "title": "1BHK in kharghar sect-35 at just Rs.39lakhs !!! URGENT SELLING!!!",
+        "location": "Kharghar, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/7k249prb2vks1-IN/image;s=272x0"
+        },
+        {
+        "id": "26",
+        "price": "₹ 39,00,000",
+        "date": "Today",
+        "title": "Kesor harmony sect-6 kharghar 1bhk at rs 39lakhs Navi Mumbai kharghar",
+        "location": "Kharghar, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/qfojlb6zyvg52-IN/image;s=272x0"
+        },
+        {
+        "id": "27",
+        "price": "₹ 28,00,000",
+        "date": "Today",
+        "title": "1bhk at panvel sector - 6 28,30,000 near station urgently selling",
+        "location": "Panvel, Maharashtra",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/q1oheu0fagov-IN/image;s=272x0"
+        },
+        {
+        "id": "28",
+        "price": "₹ 1,30,00,000",
+        "date": "Today",
+        "title": "4BHK property in kharghar at just Rs.1.3crore in sector-19 Kharghar",
+        "location": "Kharghar, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/96lhnmpew9kp-IN/image;s=272x0"
+        },
+        {
+        "id": "29",
+        "price": "₹ 28,00,000",
+        "date": "Today",
+        "title": "Om Nam Shivay Kalash Tower 1bhk 28lakh karanjade sec-5  money problem",
+        "location": "Karanjade, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+        },
+        {
+        "id": "30",
+        "price": "₹ 45,00,000",
+        "date": "Today",
+        "title": "Phoolrani housing society 2bhk in panvel sector 17 at just 45,00,000",
+        "location": "Panvel, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/xiopliqoz9tf-IN/image;s=272x0"
+        },
+        {
+        "id": "31",
+        "price": "₹ 39,00,000",
+        "date": "Today",
+        "title": "2bhk at panvel in sector 6 at just 39,00,000 lakhs near to station",
+        "location": "Karanjade, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u1888pqa8xjo1-IN/image;s=272x0"
+        },
+        {
+        "id": "32",
+        "price": "₹ 56,63,000",
+        "date": "Today",
+        "title": "2BHK in sanpada astha alavio sect-38 in 66lakhs vashi sanpada Mumbai",
+        "location": "Sanpada, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u919ha0rditv2-IN/image;s=272x0"
+        },
+        {
+        "id": "33",
+        "price": "₹ 39,00,000",
+        "date": "Today",
+        "title": "1bhk in kharghar sec 8 Bhoomi heights in 3923000 kharghar sec8",
+        "location": "Kharghar, Navi Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/f5wdx24wqh6s3-IN/image;s=272x0"
+        },
+        {
+        "id": "34",
+        "price": "₹ 37,00,000",
+        "date": "Today",
+        "title": "Buye spacious flat 1,2,3 bhk , 95% loan, at vasai east",
+        "location": "Vasai East, Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/7k249prb2vks1-IN/image;s=272x0"
+        },
+        {
+        "id": "35",
+        "price": "₹ 1,07,00,000",
+        "date": "Today",
+        "title": "1.5 BHK in Lowerst Rate in Bhandup / near Nahur station & Highway",
+        "location": "Bhandup, Mumbai",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/qfojlb6zyvg52-IN/image;s=272x0"
+        },
+        {
+        "id": "36",
+        "price": "₹ 35,00,000",
+        "date": "Today",
+        "title": "House urjent sell",
+        "location": "Banjarawala, Dehradun",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/q1oheu0fagov-IN/image;s=272x0"
+        },
+        {
+        "id": "37",
+        "price": "₹ 30,90,000",
+        "date": "Nov 30",
+        "title": "Biggest 2bhk in entire mohali on chd kharar highway",
+        "location": "Sante Majra, Kharar",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/96lhnmpew9kp-IN/image;s=272x0"
+        },
+        {
+        "id": "38",
+        "price": "₹ 57,00,000",
+        "date": "Nov 17",
+        "title": "4bhk Malayinkeezhu Tvm My House",
+        "location": "Thampanoor, Thiruvananthapuram",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+        },
+        {
+        "id": "39",
+        "price": "₹ 1,40,00,000",
+        "date": "Nov 26",
+        "title": "6 MARLA KOTHIS STARTING PRICE DETAILS",
+        "location": "Sector 59 Phase 5, Mohali",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/xiopliqoz9tf-IN/image;s=272x0"
+        },
+        {
+        "id": "40",
+        "price": "₹ 20,00,000",
+        "date": "Today",
+        "title": "Makan बिकाऊ है",
+        "location": "UP Police Colony, Lucknow",
+        "image_src": "https://apollo-singapore.akamaized.net/v1/files/u1888pqa8xjo1-IN/image;s=272x0"
+        }
+        ]
+}

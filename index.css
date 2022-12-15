@@ -1,0 +1,22 @@
+#banner_img_homepage img{
+    width: 100%;
+    height: 115px;
+}
+#banner_img_homepage{
+    position: relative;
+    width: 100%;
+}
+#banner_img_homepage button{
+    position: absolute;
+    top: 35%;
+    left: 54%;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 7%;
+    height: 30%;
+    color: #002f34;
+}
+/* #banner_img_homepage button:hover{
+    background-color: ;
+} */
