@@ -279,7 +279,9 @@ body{
 .ddmenu div{
     cursor: pointer;
 }
-
+.ddmenu span{
+    padding-left: 4px;
+}
 .ddmenu div:hover{
     color: #00a49f;
 }
