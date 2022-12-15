@@ -279,7 +279,9 @@ body{
 .ddmenu div{
     cursor: pointer;
 }
-
+.ddmenu span{
+    padding-left: 4px;
+}
 .ddmenu div:hover{
     color: #00a49f;
 }
@@ -298,8 +300,11 @@ body{
 .allcatsubmenu{
     display: flex;
     gap: 10%;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    justify-content: space-around;
+    position: absolute;
+    background-color: white;
 }
 
 .catssubmenumainheading .subheading{
@@ -335,7 +340,89 @@ body{
     cursor: pointer;
 }
 
+/* =========================popup================================ */
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.wrapper {
+	margin: 70px auto;
+	padding: 20px;
+	background: #e7e7e7;
+	border-radius: 5px;
+	width: 25%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+.wrapper h2 {
+	margin-top: 0;
+	color: #333;
+}
+.wrapper .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.wrapper .close:hover {
+	color: #06D85F;
+}
+.wrapper .content {
+	max-height: 30%;
+	overflow: auto;
+}
 
+.continuephone{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.continuephone:hover{
+    border: 5px solid;
+}
+
+.continueemail{
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.continueemail:hover{
+    border: 5px solid
+}
+
+.containerpopup{
+    text-align: center;
+}
+
+.containerpopup p{
+    text-align: center;
+}
+
+.loginwithemail_btn>a{
+    text-decoration: none;
+}
 
 /* <!-- =============================== * media query * ============================================ --> */
 @media only screen and (max-width: 700px) and (min-width: 50px)  {

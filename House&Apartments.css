@@ -1,0 +1,207 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+/* Header part*/
+.header{
+    width: 100%;
+    height: 4.5em;
+    background: #f7f8f9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 4px;
+}
+.center-header{
+    display: flex;
+    width: 100%;
+}
+.arrow{
+    color: #002f34;
+    margin: 1.5% 2%;
+    font-size: 1.5em;
+}
+/* Heading part*/
+.post h1{
+    padding: .6em 0;
+    text-align: center;
+    font-size: 24px;
+    color: #173234;
+}
+/* Main Section*/
+.main{
+    width: 850px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border-radius: 5px;
+}
+.main h3{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 15px 15px;
+    color: #002f34;
+}
+.breadcrumbs{
+    padding: 10px 15px;
+}
+.breadcrumbs__item{
+    display: inline-block;
+}
+.breadcrumbs__item:not(:last-of-type)::after{
+    content: '/';
+    color: #7f9699;
+    font-size: 12px;
+}
+.breadcrumbs__link{
+    text-decoration: none;
+    color: #749397;
+    font-size: 12px;
+}
+.change{
+    padding-left: 10px;
+    color: #002f34;
+    font-size: 15px;
+    font-weight: 900;
+    text-underline-offset: 4px;
+}
+.change:hover{
+    text-decoration: none;
+}
+hr{
+    margin-top: 2%;
+    border: 1px solid rgba(93, 93, 93, 0.2);
+}
+.main .innertext{
+    padding: 30px 30px;
+    margin-bottom: -2%;
+}
+.inner__heading{
+    position: relative;
+    padding: 0 30px;
+    color: #002f34;
+    margin-bottom: 4%;
+}
+.inner__title{
+    font-size: 15px;
+    padding: 5px 0;
+}
+.inner__button{
+    /* border: 1px solid red; */
+    padding: 0;
+}
+.inner__button button{
+    padding: 8px 10px;
+    font-size: 15px;
+    color: #002f34;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.inner__button .more_padded_btn{
+    padding: 8px 30px;
+}
+.inner__button button:hover{
+    background-color: #c8f8f6;
+}
+.inner__button button:focus{
+    border: 2px solid #002f34;
+    background-color: #c8f8f6;
+}
+.inner__input input,.inner__input select,.inner__input textarea{
+    width: 430px;
+    font-size: 15px;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: 1px solid #4a6565;
+}
+.inner__input textarea{
+    height: 100px;
+    resize: none;
+}
+.inner__input input:focus,.inner__input select:focus,.inner__input textarea:focus{
+    outline: none;
+    border: 3px solid #19afaa;
+}
+.inner__heading span,.inner__heading p{
+    font-size: 12px;
+    margin: 5px 0;
+    position: absolute;
+    right: 390px;
+    color: #4a6565;
+}
+.inner__heading p{
+    left: 30px;
+}
+.image_uploder{
+    width: 430px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.image_uploder p{
+    grid-area: 6 / 1 / 7 / 5;
+    color: red;
+    font-size: 12px;
+}
+.cam_upload{
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    border: 1px solid #4a6565;
+    justify-content: center;
+    align-items: center;
+    color: #899e9e;
+}
+.cam_upload:first-child{
+    color: #002f34;
+}
+#firstimg{
+    display: none;
+    visibility: none;
+}
+.mini_container{
+    width: 430px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    color: #002f34;
+    font-weight: 900;
+    border-bottom: 1px solid #4a6565;
+    padding: 10px 0;
+}
+#post_btn{
+   padding: 15px 10px;
+   border-radius: 5px;
+   margin: 30px;
+   font-size: 16px;
+   font-weight: 900;
+   color: #4a6565;
+   border: none;
+   cursor: not-allowed;
+   outline: none;
+   background: rgb(223, 223, 223);
+}
+/* Footer part*/
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #002f34;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer div{
+    width: 400px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: .8px;
+}
+.footer div:nth-child(2){
+    text-align: right;
+}

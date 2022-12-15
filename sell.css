@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+/* Header part*/
 .header{
     width: 100%;
     height: 4.5em;
@@ -21,12 +22,14 @@
     margin: 1.5% 2%;
     font-size: 1.5em;
 }
+/* Heading part*/
 .post h1{
     padding: .6em 0;
     text-align: center;
     font-size: 24px;
     color: #173234;
 }
+/* Main Section*/
 .main{
     width: 850px;
     height: 650px;
@@ -44,6 +47,7 @@ nav{
 nav ul{
     position: relative;
     list-style-type: none;
+    cursor: pointer;
 }
 nav ul li{
     padding: 12px 10px;
@@ -72,6 +76,7 @@ nav ul li span{
 .first-link:hover,.second-link:hover{
     color: #002f34;
     background-color: #cfcdcd;
+    transition: .2s;
 }
 nav ul ul{
     position: absolute;
@@ -107,9 +112,22 @@ nav ul .first-link:hover ul{
 #position-5{
     top: -187px;
 }
+/* Footer part*/
 .footer{
     height: 50px;
     width: 100%;
     background-color: #002f34;
     margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer div{
+    width: 400px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: .8px;
+}
+.footer div:nth-child(2){
+    text-align: right;
 }
