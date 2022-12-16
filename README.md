@@ -2,6 +2,9 @@
 
 Original Website : OLX.com
 
-Project Name : 
+Project Name : MAD (Make A Deal)
 
-Basically OLX provides us a online website where anyone can Buy and Sell anything anywhere. OLX doesn't charge for putting up an ad on their app or website.
+Basically MAD is a clone website project of OLX.com.....
+
+Tech Stack used: HTML,CSS,JavaScript
+
