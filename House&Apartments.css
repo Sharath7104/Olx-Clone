@@ -182,9 +182,13 @@ hr{
    font-weight: 900;
    color: #4a6565;
    border: none;
-   cursor: not-allowed;
    outline: none;
    background: rgb(223, 223, 223);
+}
+#post_btn:hover{
+    color: #002f34;
+    background-color: #19afaa;
+    transition: .5s;
 }
 /* Footer part*/
 .footer{
