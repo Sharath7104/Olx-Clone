@@ -6,15 +6,14 @@
 }
 /** === BANNER === */
 
-#banner_img_homepage img{
-    width: 100%;
-    height: 130px;
-}
 #banner_img_homepage{
-    /* position: relative; */
+    position: relative;
     width: 100%;
-    
-    
+       
+}
+#banner_img_homepage img{
+    height: 140px;
+    width: 100%;
 }
 #homepage_top_parent_div{
     padding-bottom: 15px;
@@ -22,14 +21,14 @@
 }
 #banner_img_homepage button{
     position: absolute;
-    top: 23%;
+    top: 34%;
     font-size: 16px;
     left: 52%;
     border: 5px solid #fff;
     border-radius: 4px;
     background-color: #fff;
-    width: 6.5%;
-    height: 5.5%;
+    width: 6%;
+    height: 29%;
     color: #002f34;
 }
 #banner_img_homepage button:hover{
@@ -39,8 +38,13 @@
 }
 
 /** === ADVERTISEMENT === */
+#advertisement_homepage_top img{
+    
+    margin-top: 30px;
+    margin-left: 18%;
+    cursor: pointer;
 
-
+}
 
 
 /** === HOMEPAGE === */
@@ -49,7 +53,7 @@
     height: 340px;
     background-color: #ebeeef;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 40px;
     padding: 15px 25px;
 }
 /* .featured{
@@ -200,9 +204,81 @@
     cursor: pointer;
     border-radius: 5px;
     background-color: initial;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 #homepage_load_more:hover{
     border: 5px solid black ;
 }
+
+/* * -------------- ADVERTISEMENT DIV ------------- */
+
+#homepage_advertisement_div{
+    width: 70%;
+    margin: auto;
+}
+#homepage_advertisement_child_div{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    margin-left: -50px;
+    grid-template-columns: repeat(7,1fr);
+    gap: 0;
+}
+#homepage_advertisement_child_div img{
+    height: 180px;
+    width: 170px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#homepage_advertisement_scnd_child_div{
+    margin-bottom: 40px;
+    margin-left: -5px;
+    position: sticky;
+}
+#homepage_advertisement_child_div img:hover{
+    height: 220px;
+    width: 200px;
+    margin-top: -20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/** === advertisement === */
+
+#advertisement_homepage_bottom{
+    margin-top: 30px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+#advertisement_homepage_bottom img{
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ?  ====== MEDIA QUERY ====== ? */
+/* SMALL SCREEN */
+@media screen and (min-width: 320px) and (max-width: 650px) {
+    
+
+};
+
+
+/* MEDIUM SCREEN */
+@media screen and (min-width : 651px) and (max-width: 1024px) {
+    
+    
+};
