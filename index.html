@@ -5,21 +5,223 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <iframe src="./navbar.html" width="100%" height="112" frameborder="0"></iframe>
+    <!-- * ----------------------Banner------------------------------ -->
 
-                                    <!-- * ----------------------Banner------------------------------ -->
-    
-    <div class="homepage_banner" >
-        <div id="banner_img_homepage" >
-            <img src="https://statics.olx.in/olxin/banners/hero_bg_in_v3@1x.png" alt="">
-            <button><b>Sell Car</b></button>
-        </div>
-        
+    <div id="banner_img_homepage" >
+        <img src="https://statics.olx.in/olxin/banners/hero_bg_in_v3@1x.png" alt="">
+        <button href=""><b>Sell Car</b></button>
     </div>
-</body>
-<script>
+    
 
-</script>
+
+
+
+    <!--* ----------------------- advertisement ---------------------------- -->
+
+    <!-- <div id="advertisement_homepage_top"></div> -->
+
+
+
+
+    <!-- * ----------------- Based on latest serch ------------------ -->
+
+    <div id="homepage_top_parent">
+        <div id="homepage_top_parent_div">
+            <span class="head_span">Based on your last search</span>
+            <button href=""><b>View more</b></button>
+        </div>
+        <div id="homepage_top_child">
+            <div>
+                <button>
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+                <!-- <span class="featured">Featured</span> -->
+                <div>
+                    <img src="https://static.toiimg.com/thumb/resizemode-4,msid-81972618,width-1200,height-900/81972618.jpg" alt="">
+                </div>
+                <h3>₹ 20,000</h3>
+                <p class="first_p">Dell 5490 Latitude</p>
+                <p>Gurukul, Ahmedabad, Gujarat</p>
+                <p>Dec 06</p>
+            </div>
+            <div>
+                <button>
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhgWdxSmY2Ody4KOeoGSFa7d4qui_dl1Rlg&usqp=CAU" alt="">
+                </div>
+                <h3>₹ 40,000</h3>
+                <p class="first_p">iphone 14/128gb</p>
+                <p>Surat Maha Nagar Palika, Surat</p>
+                <p>Today</p>
+            </div>
+            <div>
+                <button>
+                        <i class="fa-regular fa-heart"></i>
+                </button>
+                <div>
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQEE3_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-ocean-ultra_VW_34FR_WF_CO_GEO_IN?wid=200&hei=200&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1661191675613%2C1660927566964%2C1661372043826" alt="">
+                </div>
+                <h3>₹ 5,000</h3>
+                <p class="first_p">M8 Ultra 49mm in Series-8</p>
+                <p>Samudrapur, Maharashtra, India</p>
+                <p>Jan 16</p>
+            </div>
+            <div>
+                <button>
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MTgPSq5Kzy0zZcQEmorjDF3M_EEHaaCuQdk-ONPyrqASUVyVwHGKQEz9mbM64InbBGA&usqp=CAU" alt="">
+                </div>
+                <h3>₹ 900</h3>
+                <p class="first_p">Analog Watch - For Girls</p>
+                <p>Samudrapur, Kolkata, India</p>
+                <p>Yesterday</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- * ----------------- Fresh recommendations ------------------ -->
+
+
+    <div id="homepage_scnd_parent">
+        <span class="head_span" >Fresh recommendations</span>
+        <div id="homepage_scnd_child"></div>
+    </div>
+    <!-- !----------------------- LOAD MORE ------------------------ -->
+    <button id="homepage_load_more"><b>Load More</b></button>
+    <div id="homepage_third_parent"></div>
+
+
+    <!--* ----------------------- advertisement ---------------------------- -->
+
+    <div id="advertisement_homepage_bottom"></div>
+
+    <script>
+        // let advertisement_Array = [
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://secure-ds.serving-sys.com/resources/PROD/asset/49364/IMAGE/20221215/14185_Samsung_Book2-Pro_NPC-Holiday-Media-Adapts_14-12-2022_970X250_75846875424562693.gif"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     },
+        //     {
+        //         img : "https://tpc.googlesyndication.com/simgad/7301218501868798019"
+        //     }
+        // ];
+        
+        let url ="https://636a74ebb10125b78fdbef78.mockapi.io/homepage" ;
+        //console.log(url);
+        
+        async function fetchData(){
+            try {
+                let res = await (await fetch(url)).json();
+                console.log(res);
+                displayData(res);
+            } catch (error) {
+                alert(error);
+            };
+            
+        };
+        fetchData();
+
+        let scnd_div = document.querySelector("#homepage_scnd_child");
+        function displayData(data){
+            scnd_div.innerHTML="";
+        
+            // data.forEach(element => {
+                for(let i=0; i<21; i++){
+                let button = document.createElement("button");
+                
+                let div = document.createElement("div");
+                let imge = document.createElement("img");
+                imge.src = data[i].img_src;
+
+                let price = document.createElement('h3');
+                price.innerText = "₹ "+ data[i].Price;
+
+                let div2 = document.createElement("div");
+                let title = document.createElement('p');
+                title.innerText = data[i].title.substring(0,27)+"...";
+                title.setAttribute("class","first_p")
+                
+                let location = document.createElement('p');
+                location.innerText = data[i].location;
+                
+                let date = document.createElement('p');
+                date.innerText = data[i].date;
+                
+                div2.append(imge);
+                div.append(button,div2,price,title,location,date);
+                scnd_div.append(div);
+            };
+            
+            let load_more = document.querySelector('#homepage_load_more');
+            load_more.addEventListener('click',load_more_DATA => {
+
+                for(let i=9; i<data.length; i++){
+                let button = document.createElement("button");
+                
+                let div = document.createElement("div");
+                let imge = document.createElement("img");
+                imge.src = data[i].img_src;
+
+                let price = document.createElement('h3');
+                price.innerText = "₹ "+ data[i].Price;
+
+                let div2 = document.createElement("div");
+                let title = document.createElement('p');
+                title.innerText = data[i].title.substring(0,27)+"...";
+                title.setAttribute("class","first_p")
+                
+                let location = document.createElement('p');
+                location.innerText = data[i].location;
+                
+                let date = document.createElement('p');
+                date.innerText = data[i].date;
+                
+                div2.append(imge);
+                div.append(button,div2,price,title,location,date);
+                scnd_div.append(div);
+                };
+            });
+
+        };
+
+
+
+
+
+
+
+    </script>
+</body>
 </html>
