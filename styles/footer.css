@@ -1,8 +1,12 @@
 
+
 *{
     font-family: Roboto,Arial,Helvetica,sans-serif;
 }
-
+footer{
+    width: 101%;
+    margin-left: -8px;
+}
 .footermain{
     width: 100%;
     background-color: #ebeeef;
