@@ -7,7 +7,9 @@
         "traveled": "2021 - 6,000 km",
         "title": "KTM DUKE 390/PB 35/ACCESSORIES RS 40000/2021/6000KM/Michelin new tyres",
         "location": "Sector 22B, Chandigarh",
-        "date": "Dec 05"
+        "date": "Dec 05",
+        "description" : "",
+        "brand" : "KTM"
         },
         {
         "id": "2",
@@ -16,7 +18,9 @@
         "traveled": "2020 - 30,800 km",
         "title": "Hero splender",
         "location": "Valasaravakkam, Chennai",
-        "date": "Dec 01"
+        "date": "Dec 01",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "3",
@@ -25,7 +29,9 @@
         "traveled": "2020 - 25,000 km",
         "title": "HONDA LIVO TN 97 Y 3693",
         "location": "Moolakadai, Chennai",
-        "date": "Nov 29"
+        "date": "Nov 29",
+        "description" : "",
+        "brand" : "HONDA"
         },
         {
         "id": "4",
@@ -34,7 +40,9 @@
         "traveled": "2011 - 54,000 km",
         "title": "Bhawa bareta",
         "location": "Bareta, Punjab",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "5",
@@ -43,7 +51,9 @@
         "traveled": "2017 - 25,000 km",
         "title": "New candesan ha ok biek h",
         "location": "Simbhalka, Un",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "6",
@@ -52,7 +62,9 @@
         "traveled": "2011 - 46,000 km",
         "title": "Bajaj Avenger 220 with new Condition",
         "location": "Mayur Vihar Phase 3, Delhi",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Bajaj"
         },
         {
         "id": "7",
@@ -61,7 +73,9 @@
         "traveled": "2016 - 8,000 km",
         "title": "A1 CONDITION BIKE ...FULL CONDITION",
         "location": "Dassera Colony, Songadh Tapi District",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Bajaj"
         },
         {
         "id": "8",
@@ -70,7 +84,9 @@
         "traveled": "2010 - 20,000 km",
         "title": "Two tyer new one hand use condiction maitin byk",
         "location": "Shivganga Chowk, Solapur",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "HONDA"
         },
         {
         "id": "9",
@@ -79,7 +95,9 @@
         "traveled": "2018 - 15,000 km",
         "title": "muny problem I have a bullet",
         "location": "Babatpur, Varanasi",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Royal enfield"
         },
         {
         "id": "10",
@@ -88,7 +106,9 @@
         "traveled": "2012 - 30,000 km",
         "title": "Hero Honda Splendor pro",
         "location": "Barui Para, Howrah",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "11",
@@ -97,7 +117,9 @@
         "traveled": "2022 - 4,000 km",
         "title": "Yamaha r15 v4",
         "location": "Chandrayangutta, Hyderabad",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Yamaha"
         },
         {
         "id": "12",
@@ -106,7 +128,9 @@
         "traveled": "2015 - 45,000 km",
         "title": "Royal enfield standard 500 for sale",
         "location": "Thottupuram, Kozhenchery",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Royal enfield"
         },
         {
         "id": "13",
@@ -115,7 +139,9 @@
         "traveled": "2017 - 25,000 km",
         "title": "Good candition",
         "location": "Garden Reach, Kolkata",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "14",
@@ -124,7 +150,9 @@
         "traveled": "2016 - 45 km",
         "title": "Very good condition",
         "location": "Ram Katha Park, Ayodhya",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "HONDA"
         },
         {
         "id": "15",
@@ -133,7 +161,9 @@
         "traveled": "2019 - 11,500 km",
         "title": "Duke 390 well maintained bike for sell",
         "location": "Patia, Bhubaneshwar",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "16",
@@ -142,7 +172,9 @@
         "traveled": "2020 - 12,500 km",
         "title": "Royal Enfield classic 350 mat black original condition",
         "location": "Sanklit Nagar, Ahmedabad",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "17",
@@ -151,7 +183,9 @@
         "traveled": "2012 - 27,000 km",
         "title": "Good condition",
         "location": "Balongi, Mohali",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Bajaj"
         },
         {
         "id": "18",
@@ -160,7 +194,9 @@
         "traveled": "2018 - 23,500 km",
         "title": "Passion x pro working fine but chasi dameg",
         "location": "Tilak Nagar, Delhi",
-        "date": "Today"
+        "date": "Today",
+        "description" : "",
+        "brand" : "Bajaj"
         },
         {
         "id": "19",
@@ -169,7 +205,9 @@
         "traveled": "2022 - 0 km",
         "title": "150CC MINI JEEP AVAILABLE NOW/-",
         "location": "Kawaimari, Nagaon",
-        "date": "Dec 03"
+        "date": "Dec 03",
+        "description" : "",
+        "brand" : "Hero"
         },
         {
         "id": "20",
@@ -178,7 +216,9 @@
         "traveled": "2018 - 20,500 km",
         "title": "Suzuki Intruder",
         "location": "Patamata Lanka, Vijayawada",
-        "date": "Dec 02"
+        "date": "Dec 02",
+        "description" : "",
+        "brand" : "Suzuki"
         }
     ]
 }
