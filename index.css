@@ -219,7 +219,7 @@
 }
 #homepage_advertisement_scnd_child_div {
   margin-bottom: 40px;
-  margin-left: -5px;
+  margin-left: -55px;
   position: sticky;
 }
 #homepage_advertisement_child_div img:hover {
@@ -242,78 +242,37 @@
   width: 75%;
 }
 
-/*   ====== MEDIA QUERY ======  */
+/* ?  ====== MEDIA QUERY ======  */
 
-/* MEDIUM SCREEN */
+/** MEDIUM SCREEN */
 @media screen and (max-width: 1280px) {
-  body {
-    background: #000;
-  }
-  
-  #homepage_scnd_child{
-
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-
-
-}
-
-
-
-
-
-
-/* SMALL SCREEN */
-@media screen and (max-width: 760px) {
-  body {
-    background: yellow;
-  }
-
-}
-
-
-
-
-
-
-/*  SMALLER SCREEN */
-@media screen and (max-width: 576px) {
-body {
-    background: red;
-  }
   #banner_img_homepage img {
-    height: 50px;
+    height: 140px;
   }
   #banner_img_homepage button{
-    font-size: 5px;
-    
-  }
-  #banner_img_homepage button:hover{
-    border: 3px solid #fff;
+    font-size: 14px;
+    height: 35px;
+    width: 70px;
   }
   #advertisement_homepage_top img{
-    width: 70%;
-    margin: 15px 0px 0px 80px;
+    width: 85%;
+    margin: 40px 0px 10px 70px;
   }
   #homepage_top_parent{
-    height: 1100px;
+    height: 615px;
     padding: 15px 35px;
     margin-top: 20px;
   }
   .head_span {
-    font-size: 18px;
+    font-size: 20px;
   }
   #homepage_top_parent_div button {
-    font-size: 10px;
-  }
-  #homepage_top_parent_div button:hover {
-    cursor: pointer;
-    border-bottom: 1.5px solid rgb(26, 26, 26);
+    font-size: 12px;
   }
   #homepage_top_child {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 10px;
   }
   #homepage_top_child p {
     font-size: 12px;
@@ -331,15 +290,243 @@ body {
     margin-left: -10px;
   }
   #homepage_scnd_parent {
+    width: 70%;
+  }
+  #homepage_scnd_child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #homepage_scnd_child p {
+    font-size: 13px;
+    
+  }
+  #homepage_scnd_child h3 {
+    font-size: 14px;
+  }
+  #homepage_scnd_child p:last-child {
+    font-size: 10px;
+  }
+  #homepage_scnd_child div{
+    padding: 14px 15px;
+  }
+  #homepage_scnd_child div img{
+    margin-left: -20px;
+  }
+  #homepage_load_more {
+    margin-left: 47%;
+    width: 140px;
+    font-size: 18px;
+    height: 45px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  #homepage_advertisement_child_div {
     width: 80%;
+    margin-left: -72px;
+    grid-template-columns: repeat(4, 1fr);
   }
-  #homepage_scnd_child{
+  #homepage_advertisement_scnd_child_div {
+    margin-bottom: 40px;
+    margin-left: -76px;
+    
+  }
+  #homepage_advertisement_scnd_child_div img{
+    width: 49%;
+  } 
+  #advertisement_homepage_bottom img{
+    width: 93%;
+    margin-left: -10%;
+    margin-bottom: 25px;
+  }
+}
+
+
+
+/* SMALL SCREEN */
+@media screen and (max-width: 760px) {
+  body {
+    background: yellow;
+  }
+  #banner_img_homepage img {
+    height: 80px;
+  }
+  #banner_img_homepage button{
+    font-size: 8px;
+    
+  }
+  #banner_img_homepage button:hover{
+    border: 3px solid #fff;
+  }
+  #advertisement_homepage_top img{
+    width: 87%;
+    margin: 15px 0px 0px 50px;
+  }
+  #homepage_top_parent_div button {
+    font-size: 11px;
+  }
+  #homepage_top_parent{
+    height: 560px;
+    padding: 15px 20px;
+    margin-top: 20px;
+  }
+  .head_span {
+    font-size: 20px;
+  }
+  #homepage_top_child {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    padding: 7px;
+  }
+  #homepage_top_child p {
+    font-size: 13px;
+  }
+  #homepage_top_child h3{
+    font-size: 14px;
+  }
+  #homepage_top_child p:last-child{
+    font-size: 9px;
+  }
+  #homepage_top_child img {
+    height: 120px;
+    width: 150px;
+    margin-top: -10px;
+    margin-left: -25px;
+  }
+  #homepage_scnd_parent {
+    width: 300px;
+    margin-left: 50px;
+  }
+  #homepage_scnd_child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #homepage_scnd_child p {
+    font-size: 13px;
+    
+  }
+  #homepage_scnd_child h3 {
+    font-size: 14px;
+  }
+  #homepage_scnd_child p:last-child {
+    font-size: 9px;
+  }
+  #homepage_scnd_child div{
+    padding: 12px 25px;
+  }
+  #homepage_load_more {
+    margin-left: 38%;
+    width: 100px;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 25px;
+  }
+  #homepage_load_more:hover {
+    border: 3.5px solid black;
+  }
+  #homepage_advertisement_child_div {
+    margin-left:1%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #homepage_advertisement_scnd_child_div {
+    margin-bottom: 40px;
+    margin-left: -5px;
+  }
+  #homepage_advertisement_scnd_child_div img{
+    width: 48.9%;
+  }
+
+}
+
+
+
+
+
+
+/*  SMALLER SCREEN */
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  #banner_img_homepage button{
+    font-size: 5px;
+    
+  }
+  #banner_img_homepage button:hover{
+    border: 3px solid #fff;
+  }
+  #advertisement_homepage_top img{
+    width: 70%;
+    margin: 15px 0px 0px 80px;
+  }
+  #homepage_top_parent{
+    height: 1120px;
+    padding: 15px 35px;
+    margin-top: 20px;
+  }
+  .head_span {
+    font-size: 18px;
+  }
+  #homepage_top_parent_div button {
+    font-size: 10px;
+  }
+  #homepage_top_child {
     grid-template-columns: repeat(1, 1fr);
-    gap: 17px;
+    gap: 12px;
+    padding: 10px;
   }
-
-
-
+  #homepage_top_child p {
+    font-size: 12px;
+  }
+  #homepage_top_child h3{
+    font-size: 14px;
+  }
+  #homepage_top_child p:last-child{
+    font-size: 9px;
+  }
+  #homepage_top_child img {
+    height: 150px;
+    width: 180px;
+    margin-top: -15px;
+    margin-left: -10px;
+  }
+  #homepage_scnd_parent {
+    width: 65%;
+  }
+  #homepage_scnd_child {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #homepage_scnd_child p {
+    font-size: 12px;
+    
+  }
+  #homepage_scnd_child h3 {
+    font-size: 14px;
+  }
+  #homepage_scnd_child p:last-child {
+    font-size: 9px;
+  }
+  #homepage_scnd_child div{
+    padding: 16px 30px;
+  }
+  #homepage_load_more {
+    margin-left: 38%;
+    width: 100px;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 25px;
+  }
+  #homepage_load_more:hover {
+    border: 3.5px solid black;
+  }
+  #homepage_advertisement_child_div {
+    margin-left: -25px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #homepage_advertisement_scnd_child_div {
+    margin-bottom: 40px;
+    margin-left: -25px;
+  }
+  #homepage_advertisement_scnd_child_div img{
+    width: 60%;
+  }
 
 
 } 

@@ -1,0 +1,163 @@
+body{
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+.productmain{
+    width: 100%;
+}
+
+.product_img{
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+.image_discription{
+    width: 90%;
+
+}
+.image_discription{
+    width: 100%;
+}
+.image_discription img{
+    width: 100%;
+    border-radius: 5px;
+}
+#prev{
+    color: white;
+}
+#next{
+    color: white;
+}
+
+
+.description{
+    padding-left: 20px;
+    border: 1px solid rgb(179,178,178);
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 15px;
+   }
+   .description h3{
+    padding: 10px 10px 10px 0;
+    font-size: 20px;
+   }
+   .description p{
+       line-height: 20px;
+       color: rgb(51,51,51);
+   }
+   
+
+/* ========== */
+
+.product_details{
+    width: 70%;
+    margin-left: 10px;
+}
+
+/* <!-- =============================== *  box 1 *============================================ --> */
+
+.box{
+    background-color: white;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 5px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price h3{
+    font-weight: 700;
+    margin-bottom: -8px;
+    color: #002f34;
+    font-size: 34px;
+    line-height: 32px;
+    padding: 10px;
+}
+.price p{
+  font-size: 25px;
+  font-weight: normal;
+  float: left;
+  margin-right: 10px;
+  padding: 10px 0 10px 10px;
+  cursor: pointer;
+}
+.box p{
+    color: #757674;
+    padding: 0px 10px;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    padding: 15px 10px 15px 10px ;
+}
+
+/* <!-- =============================== *  box 2 *============================================ --> */
+
+
+.seller_detail img{
+    width: 55px;
+    border-radius: 50%;
+    margin: 10px 10px 8px 10px ;
+}
+.seller_detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.Seller_description{
+    font-size: 17px;
+   color:  #212f34;
+   padding: 10px 0 5px 10px;
+}
+.seller_detail h2{
+    font-size: 18px;
+}
+.seller_detail p{
+    font-size: 13px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30%;
+    border: 2px solid black;
+    margin: 46px;
+    transition: all 0.3s;
+    width: 100%;
+}
+.box a:hover{
+    border: 4px solid black;
+}
+#box2{
+    height: 200px;
+    margin-top: 10px
+}
+
+
+
+
+
+
+/* <!-- =============================== *  box 3 *============================================ --> */
+
+
+
+#box3{
+    margin-top: 10px;
+}
+#box3 h2{
+    font-size: 18px;
+    padding: 15px;
+}
+#box3 p{
+    font-size: 13px;
+    padding: 0 0 10px 15px;
+}
+#box3 img{
+    width: 390px;
+    padding: 0 15px;
+    padding-bottom: 10px;
+}
+
+
