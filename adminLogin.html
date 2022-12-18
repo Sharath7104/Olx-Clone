@@ -34,11 +34,15 @@
 </html>
 
 <script>
-    let userName = document.getElementById("username").value;
-    let passWord = document.getElementById("password").value;
-
-    let admin = {
-        username : userName,
-        password : passWord
-    }
+    let submitbtn = document.getElementById("submit")
+    submitbtn.addEventListener("click", function(event){
+        // event.preventDefault()
+        let userName = document.getElementById("username").value;
+        let passWord = document.getElementById("password").value;
+        if(userName == "admin" && passWord == "admin"){
+        window.location.href = "./admindashboard.html"
+        }else{
+            alert("Sorry unable to login you have entered a Wrong Credentials Please check and try again later")
+        }
+    })
 </script>
