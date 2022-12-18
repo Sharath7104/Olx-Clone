@@ -1,12 +1,8 @@
 
-
 *{
     font-family: Roboto,Arial,Helvetica,sans-serif;
 }
-footer{
-    width: 101%;
-    margin-left: -8px;
-}
+
 .footermain{
     width: 100%;
     background-color: #ebeeef;
@@ -62,8 +58,7 @@ footer{
 }
 
 .copyright{
-    background-color: #002f34;
-    color:white;
+    background-color: #002f34;;
 }
 
 .copyrightflex{
@@ -76,7 +71,6 @@ footer{
     justify-content: space-between;
 }
 
-.copyrightflex p{
+.copyrightflex>div>span{
     font-weight: 700;
-    color:white;
 }

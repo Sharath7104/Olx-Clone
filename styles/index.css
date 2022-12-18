@@ -7,8 +7,8 @@
 /** === BANNER === */
 
 #banner_img_homepage {
-  position: relative;
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 #banner_img_homepage img {
   height: 140px;
@@ -20,14 +20,14 @@
 }
 #banner_img_homepage button {
   position: absolute;
-  top: 34%;
+  top: 28%;
   font-size: 16px;
-  left: 52%;
+  left: 86%;
   border: 5px solid #fff;
   border-radius: 4px;
   background-color: #fff;
-  width: 6%;
-  height: 29%;
+  width: 100px;
+  height: 50px;
   color: #002f34;
 }
 #banner_img_homepage button:hover {

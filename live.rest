@@ -14,6 +14,9 @@ Content-Type: application/json
     "image_src":"https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
 }
 
+
+
+
 ### delete data
 DELETE https://636a74ebb10125b78fdbef78.mockapi.io/electronics/43
 

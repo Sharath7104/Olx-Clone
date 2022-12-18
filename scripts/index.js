@@ -1,3 +1,4 @@
+
 // * ------------------------>> FETCH DATA  <<-------------------------------------
 let url = "https://636a74ebb10125b78fdbef78.mockapi.io/homepage";
 async function fetchData() {
@@ -61,7 +62,7 @@ function displayData(data) {
     div2.append(imge);
     div.append(button, div2, price, title, location, date);
     scnd_div.append(div);
-  }
+  };
 
   let load_more = document.querySelector("#homepage_load_more");
   load_more.addEventListener("click", (load_more_DATA) => {
@@ -108,7 +109,7 @@ function displayData(data) {
       scnd_div.append(div);
     }
   });
-}
+};
 
 let headButton = document.querySelectorAll(".head_button");
 //console.log(headButton);
@@ -121,10 +122,13 @@ for (let i = 0; i < headButton.length; i++) {
       headButton[i].style.color = "grey";
     }
   });
-}
+};
 
 // * -------------------------->> LS <<---------------------------------
 function function_ls(obj){
     localStorage.setItem("local_Key",JSON.stringify(obj));
 
-}
+};
+
+
+// --------------------------------------------------------->

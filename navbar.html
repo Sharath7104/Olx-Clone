@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     <title> olx</title>
 </head>
 
@@ -18,7 +18,7 @@
 <div id="main-heading-navbar">
     <div class="header">
         <div class="navbar">
-            <img src="C:\Users\shara\Downloads\MAdlogo.png">
+            <img id="logoimg" src="https://i.ibb.co/xMNWymg/MAd-1.png">
 
             <div class="country_select" id="country">
                 <div class="select">
@@ -116,7 +116,7 @@
                                         <p>OR</p>
                                     </div>
                                     <div class="loginwithemail_btn">
-                                        <a href="">Login with Email</a>
+                                        <a href="signup.html">Login with Email</a>
                                     </div>
 
                                     <div>
@@ -201,9 +201,9 @@
     <div class="ddmenu">
         <div id="show_all_categories">All Categories <span><i class="fa-solid fa-chevron-down" id="cat"></i></span></div>
         <div>Cars</div>
-        <div>Motorcycles</div>
-        <div>Mobile Phones</div>
-        <div>For Sale:Houses & Apartments</div>
+        <div id="bikes">Motorcycles</div>
+        <div id="mobiles">Mobile Phones</div>
+        <div id="houses">For Sale:Houses & Apartments</div>
         <div>OLX Renew(Mobile)</div>
         <div>Scooters</div>
         <div>Commercial & other Vehicles</div>
@@ -326,67 +326,12 @@
 </div>
 
 
-    <script>
+<script>
 
-        //  =============================== * navbar * ============================================
-
-        let country = document.getElementById('country');
-        let moving = document.getElementById('moving');
-        let text = document.getElementById('text');
-        let list = document.getElementById('list');
-        let category = document.getElementById('cat')
-
-
-        country.addEventListener('click', () => {
-            list.classList.toggle('hidden');
-            moving.classList.toggle('roted')
-        });
-
-
-        let eng_tag = document.getElementById('eng_tag');
-        let hin_eng = document.querySelector('.hin_eng');
-        let language = document.querySelector('.language');
-
-
-        language.addEventListener('click', () => {
-            hin_eng.classList.toggle('display_div');
-        });
-        function languageolx(anyone) {
-            eng_tag.innerHTML = anyone;
-        }
-
-        let person_img_id = document.getElementById('person_img_id');
-        let groupdownid = document.getElementById('groupdownid');
-
-        person_img_id.addEventListener('click', () => {
-            groupdownid.classList.toggle('block_div')
-        });
-
-        function myfunction(place_name){
-            text.innerHTML = place_name;
-        }
-
-        let button = document.getElementById("show_all_categories");
-    let listddmenu = document.querySelector(".all_categories");
-    listddmenu.style.display = "none"
-  
-   
-
-    button.addEventListener("click", (event) => {
-        cat.classList.toggle('roted')
-        if (listddmenu.style.display == "none") {
-            listddmenu.style.display = "block"
-        } else {
-            listddmenu.style.display = "none"
-        }
-    })
-
-    let redirect = document.getElementById("goToSell");
-    redirect.addEventListener("click",function(){
-        window.location.href="sell.html";
-    })
+        
     </script>
 
 </body>
 
 </html>
+<script src="./scripts/navbar.js"></script>
