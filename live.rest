@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ### delete data
-DELETE https://636a74ebb10125b78fdbef78.mockapi.io/electronics/41
+DELETE https://636a74ebb10125b78fdbef78.mockapi.io/electronics/43
 
 ### GET bikes data
 GET https://636a74ebb10125b78fdbef78.mockapi.io/bikes

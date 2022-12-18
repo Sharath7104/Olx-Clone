@@ -1,4 +1,4 @@
-let ApartmetsURL = "https://636a74ebb10125b78fdbef78.mockapi.io/electronics";
+let MobilesURL = "https://636a74ebb10125b78fdbef78.mockapi.io/bikes";
 
 let postBtn = document.getElementById("post_btn")
 
@@ -12,28 +12,30 @@ var today = `${curMonth} ${dayOfMonth}`;
 
 postBtn.addEventListener("click",async function(){
     let image = document.getElementById("firstimg").value;
+    let year = document.getElementById("year").value;
+    let kms = document.getElementById("kms").value;
+    let brand = document.getElementById("brand").value;
     let Title = document.getElementById("title").value;
     let des = document.getElementById("description").value;
     let Price = document.getElementById("price").value;
     let loc = document.getElementById("location").value;
-    let sqft = document.getElementById("sqft").value;
-    let carpetArea = document.getElementById("carpetArea").value;
     let Name = document.getElementById("name").value;
     let mob = document.getElementById("mob").value;
     let apartsObj = {
-        sqftArea : sqft,
-        carpetarea : carpetArea,
-        name : Name,
-        Phone : mob,
         image_src : image,
+        year : year,
+        kms : kms,
+        brand : brand,
         price : Price,
         title : Title,
         description : des,
         location : loc,
+        name : Name,
+        phone : mob,
         date : today
     };
     
-    let post_request = await fetch(ApartmetsURL,{
+    let post_request = await fetch(MobilesURL,{
         method : "POST",
         headers : {
             "Content-Type": "application/json"

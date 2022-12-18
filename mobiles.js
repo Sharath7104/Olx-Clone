@@ -12,14 +12,22 @@ var today = `${curMonth} ${dayOfMonth}`;
 
 postBtn.addEventListener("click",async function(){
     let image = document.getElementById("firstimg").value;
+    let brand = document.getElementById("brand").value;
     let Title = document.getElementById("title").value;
+    let des = document.getElementById("description").value;
     let Price = document.getElementById("price").value;
     let loc = document.getElementById("location").value;
+    let Name = document.getElementById("name").value;
+    let mob = document.getElementById("mob").value;
     let apartsObj = {
         image_src : image,
+        brand : brand,
         price : Price,
         title : Title,
+        description : des,
         location : loc,
+        name : Name,
+        phone : mob,
         date : today
     };
     
