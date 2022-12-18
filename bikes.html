@@ -33,10 +33,10 @@
 
         <ul class="breadcrumbs">
             <li class="breadcrumbs__item">
-                <a href="#" class="breadcrumbs__link">Mobiles</a>
+                <a href="#" class="breadcrumbs__link">Bikes</a>
             </li>
             <li class="breadcrumbs__item">
-                <a href="#" class="breadcrumbs__link">Mobile Phones</a>
+                <a href="#" class="breadcrumbs__link">Motercycles</a>
             </li>
             <a href="sell.html" class="change">Change</a>
         </ul>
@@ -50,42 +50,37 @@
             <div class="inner__heading">
                 <div class="inner__title">Brand *</div>
                 <div class="inner__input">
-                    <select name="facing" id="brand">
+                    <select name="facing" id="selectFacing">
                         <option value=""></option>
-                        <option value="" disabled style="font-weight: 600; font-size: 16px; color: #002f34;">Popular
-                            Brands</option>
-                        <option value="iphone">iphone</option>
-                        <option value="Samsung">Samsung</option>
-                        <option value="Mi">Mi</option>
-                        <option value="Vivo">Vivo</option>
-                        <option value="Oppo">Oppo</option>
-                        <option value="Realme">Realme</option>
-                        <option value="" disabled style="font-weight: 600; font-size: 16px; color: #002f34;">All Brands
-                        </option>
-                        <option value="Asus">Asus</option>
-                        <option value="BlackBerry">BlackBerry</option>
-                        <option value="Gionne">Gionne</option>
-                        <option value="Google Pixel">Google Pixel</option>
-                        <option value="Honer">Honer</option>
-                        <option value="HTC">HTC</option>
-                        <option value="Huawei">Huawei</option>
-                        <option value="Infinix">Infinix</option>
-                        <option value="Intex">Intex</option>
-                        <option value="iphone">iphone</option>
-                        <option value="Karbonn">Karbonn</option>
-                        <option value="Lava">Lava</option>
-                        <option value="Lenovo">Lenovo</option>
-                        <option value="LG">LG</option>
-                        <option value="MI">MI</option>
-                        <option value="Micromax">Micromax</option>
-                        <option value="Motorola">Motorola</option>
-                        <option value="Nokia">Nokia</option>
-                        <option value="One Plus">One Plus</option>
-                        <option value="Other Mobiles">Other Mobiles</option>
+                        <option value="Bajaj">Bajaj</option>
+                        <option value="Hero">Hero</option>
+                        <option value="Honda">Honda</option>
+                        <option value="KTM">KTM</option>
+                        <option value="Royal Endield">Royal Endield</option>
+                        <option value="Suzuki">Suzuki</option>
+                        <option value="TVS">TVS</option>
+                        <option value="Yamaha">Yamaha</option>
+                        <option value="Other Brands">Other Brands</option>
                     </select>
                 </div>
             </div>
 
+
+            <div class="inner__heading">
+                <div class="inner__title">Year *</div>
+                <div class="inner__input">
+                    <input type="number" id="year">
+                </div>
+                <p>Year is mandatory. Please complete the required field.</p>
+            </div>
+
+            <div class="inner__heading">
+                <div class="inner__title">KM driven *</div>
+                <div class="inner__input">
+                    <input type="number" id="kms">
+                </div>
+                <p>KM driven is mandatory. Please complete the required field.</p>
+            </div>
 
             <div class="inner__heading">
                 <div class="inner__title">Ad title *</div>
@@ -98,7 +93,7 @@
             <div class="inner__heading">
                 <div class="inner__title">Description *</div>
                 <div class="inner__input">
-                    <textarea id="description"></textarea>
+                    <textarea></textarea>
                 </div>
                 <p>A minimum length of 10 characters is required. Please edit the field.</p>
             </div>
@@ -215,14 +210,15 @@
             <div class="inner__heading">
                 <div class="inner__title">Name</div>
                 <div class="inner__input">
-                    <input type="text" id="name">
+                    <input type="text">
                 </div>
+                <span>0 / 30</span>
             </div>
 
             <div class="inner__heading">
                 <div class="inner__title">Your phone number</div>
                 <div class="inner__input">
-                    <input type="number" id="mob">
+                    <input type="number">
                 </div>
             </div>
 
@@ -244,4 +240,16 @@
 
 </html>
 
-<script src="mobiles.js"></script>
+<!-- <script>
+    function checkForBlank(){
+        if(document.getElementById("year").value==""){
+            alert("You missed something")
+            document.getElementById("year").style.border = "3px solid red";
+        }
+    }
+    document.getElementById("post_btn").addEventListener("click",function(){
+        checkForBlank();
+    })
+</script> -->
+
+<script src="bikes.js"></script>
