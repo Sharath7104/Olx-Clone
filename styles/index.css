@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0%;
@@ -206,3 +207,341 @@
 #homepage_load_more:hover{
     border: 5px solid black ;
 }
+
+/* * -------------- ADVERTISEMENT DIV ------------- */
+
+#homepage_advertisement_div {
+  width: 70%;
+  margin: auto;
+}
+#homepage_advertisement_child_div {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  margin-left: -50px;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0;
+}
+#homepage_advertisement_child_div img {
+  height: 180px;
+  width: 170px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  transition-duration: 150ms;
+  background-color: #fff;
+}
+#homepage_advertisement_scnd_child_div {
+  margin-bottom: 40px;
+  margin-left: -55px;
+  position: sticky;
+}
+#homepage_advertisement_child_div img:hover {
+  /* height: 220px;
+    width: 200px; */
+  transform: scale(1.1);
+  margin-top: -20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 3;
+}
+
+/** === advertisement === */
+
+#advertisement_homepage_bottom {
+  margin-top: 30px;
+  margin-left: 20%;
+  cursor: pointer;
+}
+#advertisement_homepage_bottom img {
+  width: 75%;
+}
+
+/* ?  ====== MEDIA QUERY ======  */
+
+/** MEDIUM SCREEN */
+@media screen and (max-width: 1280px) {
+  #banner_img_homepage img {
+    height: 140px;
+  }
+  #banner_img_homepage button{
+    font-size: 14px;
+    height: 35px;
+    width: 70px;
+  }
+  #advertisement_homepage_top img{
+    width: 85%;
+    margin: 40px 0px 10px 70px;
+  }
+  #homepage_top_parent{
+    height: 615px;
+    padding: 15px 35px;
+    margin-top: 20px;
+  }
+  .head_span {
+    font-size: 20px;
+  }
+  #homepage_top_parent_div button {
+    font-size: 12px;
+  }
+  #homepage_top_child {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 10px;
+  }
+  #homepage_top_child p {
+    font-size: 12px;
+  }
+  #homepage_top_child h3{
+    font-size: 14px;
+  }
+  #homepage_top_child p:last-child{
+    font-size: 9px;
+  }
+  #homepage_top_child img {
+    height: 150px;
+    width: 180px;
+    margin-top: -15px;
+    margin-left: -10px;
+  }
+  #homepage_scnd_parent {
+    width: 70%;
+  }
+  #homepage_scnd_child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #homepage_scnd_child p {
+    font-size: 13px;
+    
+  }
+  #homepage_scnd_child h3 {
+    font-size: 14px;
+  }
+  #homepage_scnd_child p:last-child {
+    font-size: 10px;
+  }
+  #homepage_scnd_child div{
+    padding: 14px 15px;
+  }
+  #homepage_scnd_child div img{
+    margin-left: -20px;
+  }
+  #homepage_load_more {
+    margin-left: 47%;
+    width: 140px;
+    font-size: 18px;
+    height: 45px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  #homepage_advertisement_child_div {
+    width: 80%;
+    margin-left: -72px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #homepage_advertisement_scnd_child_div {
+    margin-bottom: 40px;
+    margin-left: -76px;
+    
+  }
+  #homepage_advertisement_scnd_child_div img{
+    width: 49%;
+  } 
+  #advertisement_homepage_bottom img{
+    width: 93%;
+    margin-left: -10%;
+    margin-bottom: 25px;
+  }
+}
+
+
+
+/* SMALL SCREEN */
+@media screen and (max-width: 760px) {
+  body {
+    background: yellow;
+  }
+  #banner_img_homepage img {
+    height: 80px;
+  }
+  #banner_img_homepage button{
+    font-size: 8px;
+    
+  }
+  #banner_img_homepage button:hover{
+    border: 3px solid #fff;
+  }
+  #advertisement_homepage_top img{
+    width: 87%;
+    margin: 15px 0px 0px 50px;
+  }
+  #homepage_top_parent_div button {
+    font-size: 11px;
+  }
+  #homepage_top_parent{
+    height: 560px;
+    padding: 15px 20px;
+    margin-top: 20px;
+  }
+  .head_span {
+    font-size: 20px;
+  }
+  #homepage_top_child {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    padding: 7px;
+  }
+  #homepage_top_child p {
+    font-size: 13px;
+  }
+  #homepage_top_child h3{
+    font-size: 14px;
+  }
+  #homepage_top_child p:last-child{
+    font-size: 9px;
+  }
+  #homepage_top_child img {
+    height: 120px;
+    width: 150px;
+    margin-top: -10px;
+    margin-left: -25px;
+  }
+  #homepage_scnd_parent {
+    width: 300px;
+    margin-left: 50px;
+  }
+  #homepage_scnd_child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #homepage_scnd_child p {
+    font-size: 13px;
+    
+  }
+  #homepage_scnd_child h3 {
+    font-size: 14px;
+  }
+  #homepage_scnd_child p:last-child {
+    font-size: 9px;
+  }
+  #homepage_scnd_child div{
+    padding: 12px 25px;
+  }
+  #homepage_load_more {
+    margin-left: 38%;
+    width: 100px;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 25px;
+  }
+  #homepage_load_more:hover {
+    border: 3.5px solid black;
+  }
+  #homepage_advertisement_child_div {
+    margin-left:1%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #homepage_advertisement_scnd_child_div {
+    margin-bottom: 40px;
+    margin-left: -5px;
+  }
+  #homepage_advertisement_scnd_child_div img{
+    width: 48.9%;
+  }
+
+}
+
+
+
+
+
+
+/*  SMALLER SCREEN */
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  #banner_img_homepage button{
+    font-size: 5px;
+    
+  }
+  #banner_img_homepage button:hover{
+    border: 3px solid #fff;
+  }
+  #advertisement_homepage_top img{
+    width: 70%;
+    margin: 15px 0px 0px 80px;
+  }
+  #homepage_top_parent{
+    height: 1120px;
+    padding: 15px 35px;
+    margin-top: 20px;
+  }
+  .head_span {
+    font-size: 18px;
+  }
+  #homepage_top_parent_div button {
+    font-size: 10px;
+  }
+  #homepage_top_child {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    padding: 10px;
+  }
+  #homepage_top_child p {
+    font-size: 12px;
+  }
+  #homepage_top_child h3{
+    font-size: 14px;
+  }
+  #homepage_top_child p:last-child{
+    font-size: 9px;
+  }
+  #homepage_top_child img {
+    height: 150px;
+    width: 180px;
+    margin-top: -15px;
+    margin-left: -10px;
+  }
+  #homepage_scnd_parent {
+    width: 65%;
+  }
+  #homepage_scnd_child {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #homepage_scnd_child p {
+    font-size: 12px;
+    
+  }
+  #homepage_scnd_child h3 {
+    font-size: 14px;
+  }
+  #homepage_scnd_child p:last-child {
+    font-size: 9px;
+  }
+  #homepage_scnd_child div{
+    padding: 16px 30px;
+  }
+  #homepage_load_more {
+    margin-left: 38%;
+    width: 100px;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 25px;
+  }
+  #homepage_load_more:hover {
+    border: 3.5px solid black;
+  }
+  #homepage_advertisement_child_div {
+    margin-left: -25px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #homepage_advertisement_scnd_child_div {
+    margin-bottom: 40px;
+    margin-left: -25px;
+  }
+  #homepage_advertisement_scnd_child_div img{
+    width: 60%;
+  }
+
+
+} 
+

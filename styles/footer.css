@@ -1,8 +1,19 @@
 
+<<<<<<< HEAD
 *{
     font-family: Roboto,Arial,Helvetica,sans-serif;
 }
 
+=======
+
+*{
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+footer{
+    width: 101%;
+    margin-left: -8px;
+}
+>>>>>>> 8bdeee01b3e318f6ccdc2b284dfd09468ad8eb47
 .footermain{
     width: 100%;
     background-color: #ebeeef;

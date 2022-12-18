@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,4 +49,56 @@ sand_icon.addEventListener('click', () => {
     message.style = 'display: block';
     text_message.value = demo.value
 })
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="chat_box">
+
+        <div class="heading_chatbox">
+            <div class="img_name_chat">
+                <img src="https://cdn.pixabay.com/photo/2015/03/04/22/35/avatar-659651__340.png">
+                <h2> Dr Naik </h2>
+            </div>
+            <i class="fa-solid fa-x"></i>
+        </div>
+
+        <div class="see_chat">
+            <h3 id="message"> </h3>
+        </div>
+
+        <div class="send_message">
+            <input type="text" placeholder="Type a message" id="text_message">
+            <input type="text" placeholder="Type a message" id="demo">
+            <i class="fa-solid fa-paper-plane" id="sand_icon"></i>
+        </div>
+
+
+    </div>
+</body>
+</html>
+
+<script>
+    // ==================== *  chat box * ============================= 
+
+let sand_icon = document.getElementById('sand_icon');
+let message = document.getElementById('message');
+let text_message = document.getElementById('text_message');
+let demo = document.getElementById('demo');
+
+
+sand_icon.addEventListener('click', () => {
+    message.innerHTML = text_message.value;
+    message.style = 'display: block';
+    text_message.value = demo.value
+})
+>>>>>>> 8bdeee01b3e318f6ccdc2b284dfd09468ad8eb47
 </script>

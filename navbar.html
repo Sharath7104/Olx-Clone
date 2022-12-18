@@ -183,7 +183,7 @@
 
 
             <div class="selling_page">
-                <button> <i class="fa-solid fa-plus"></i>
+                <button id="goToSell"> <i class="fa-solid fa-plus"></i>
                     <p> SELL</p>
                 </button>
             </div>
@@ -379,6 +379,11 @@
         } else {
             listddmenu.style.display = "none"
         }
+    })
+
+    let redirect = document.getElementById("goToSell");
+    redirect.addEventListener("click",function(){
+        window.location.href="sell.html";
     })
     </script>
 
