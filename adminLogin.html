@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adminLogin.css">
+    <link rel="icon" type="image/x-icon" href="img\logo.png">
+    <title>MAD - Admin</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <img src="img\MAdlogo.png" alt="">
+            </div>
+            <div class="text">
+                <h3 class="animate-charcter"> Welcome back Admin...</h3>
+            </div>
+        </div>
+        <form action="">
+            <label for="">Username</label><br>
+            <input type="text" id="username"><br>
+            <label for="">Password</label><br>
+            <input type="password" id="password">
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>
+
+<script>
+    let userName = document.getElementById("username").value;
+    let passWord = document.getElementById("password").value;
+
+    let admin = {
+        username : userName,
+        password : passWord
+    }
+</script>
