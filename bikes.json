@@ -3,7 +3,7 @@
         {
         "id": "1",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/5d0pk60roid01-IN/image;s=272x0",
-        "price": "2,49,000",
+        "price": 249000,
         "traveled": "2021 - 6,000 km",
         "title": "KTM DUKE 390/PB 35/ACCESSORIES RS 40000/2021/6000KM/Michelin new tyres",
         "location": "Sector 22B, Chandigarh",
@@ -14,7 +14,7 @@
         {
         "id": "2",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/h1ddkh7cn7qu3-IN/image;s=272x0",
-        "price": "65,000",
+        "price": 65000,
         "traveled": "2020 - 30,800 km",
         "title": "Hero splender",
         "location": "Valasaravakkam, Chennai",
@@ -25,7 +25,7 @@
         {
         "id": "3",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/2pkc1xk4a06t1-IN/image;s=272x0",
-        "price": "64,000",
+        "price": 64000,
         "traveled": "2020 - 25,000 km",
         "title": "HONDA LIVO TN 97 Y 3693",
         "location": "Moolakadai, Chennai",
@@ -36,7 +36,7 @@
         {
         "id": "4",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/fyvdfaz82b2f1-IN/image;s=272x0",
-        "price": "27,000",
+        "price": 27000,
         "traveled": "2011 - 54,000 km",
         "title": "Bhawa bareta",
         "location": "Bareta, Punjab",
@@ -47,7 +47,7 @@
         {
         "id": "5",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/60ya0mf1sj1z-IN/image;s=272x0",
-        "price": "39,000",
+        "price": 39000,
         "traveled": "2017 - 25,000 km",
         "title": "New candesan ha ok biek h",
         "location": "Simbhalka, Un",
@@ -58,7 +58,7 @@
         {
         "id": "6",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/a3k1cy9k3bt92-IN/image;s=272x0",
-        "price": "32,000",
+        "price": 32000,
         "traveled": "2011 - 46,000 km",
         "title": "Bajaj Avenger 220 with new Condition",
         "location": "Mayur Vihar Phase 3, Delhi",
@@ -69,7 +69,7 @@
         {
         "id": "7",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/1u5efbtpa8xk3-IN/image;s=272x0",
-        "price": "38,000",
+        "price": 38000,
         "traveled": "2016 - 8,000 km",
         "title": "A1 CONDITION BIKE ...FULL CONDITION",
         "location": "Dassera Colony, Songadh Tapi District",
@@ -80,7 +80,7 @@
         {
         "id": "8",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/fvukla4cljj23-IN/image;s=272x0",
-        "price": "40,000",
+        "price": 40000,
         "traveled": "2010 - 20,000 km",
         "title": "Two tyer new one hand use condiction maitin byk",
         "location": "Shivganga Chowk, Solapur",
@@ -91,7 +91,7 @@
         {
         "id": "9",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/bh5mp6lisp12-IN/image;s=272x0",
-        "price": "79,000",
+        "price": 79000,
         "traveled": "2018 - 15,000 km",
         "title": "muny problem I have a bullet",
         "location": "Babatpur, Varanasi",
@@ -102,7 +102,7 @@
         {
         "id": "10",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/en8x5xpdkzx33-IN/image;s=272x0",
-        "price": "30,000",
+        "price": 30000,
         "traveled": "2012 - 30,000 km",
         "title": "Hero Honda Splendor pro",
         "location": "Barui Para, Howrah",
@@ -113,7 +113,7 @@
         {
         "id": "11",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/ojwqwl70jgxt1-IN/image;s=272x0",
-        "price": "1,82,000",
+        "price": 182000,
         "traveled": "2022 - 4,000 km",
         "title": "Yamaha r15 v4",
         "location": "Chandrayangutta, Hyderabad",
@@ -124,7 +124,7 @@
         {
         "id": "12",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/5d0pk60roid01-IN/image;s=272x0",
-        "price": "95,000",
+        "price": 95000,
         "traveled": "2015 - 45,000 km",
         "title": "Royal enfield standard 500 for sale",
         "location": "Thottupuram, Kozhenchery",
@@ -135,7 +135,7 @@
         {
         "id": "13",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/h1ddkh7cn7qu3-IN/image;s=272x0",
-        "price": "35,000",
+        "price": 35000,
         "traveled": "2017 - 25,000 km",
         "title": "Good candition",
         "location": "Garden Reach, Kolkata",
@@ -146,7 +146,7 @@
         {
         "id": "14",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/2pkc1xk4a06t1-IN/image;s=272x0",
-        "price": "76,000",
+        "price": 76000,
         "traveled": "2016 - 45 km",
         "title": "Very good condition",
         "location": "Ram Katha Park, Ayodhya",
@@ -157,7 +157,7 @@
         {
         "id": "15",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/fyvdfaz82b2f1-IN/image;s=272x0",
-        "price": "1,95,000",
+        "price": 195000,
         "traveled": "2019 - 11,500 km",
         "title": "Duke 390 well maintained bike for sell",
         "location": "Patia, Bhubaneshwar",
@@ -168,7 +168,7 @@
         {
         "id": "16",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/60ya0mf1sj1z-IN/image;s=272x0",
-        "price": "1,77,786",
+        "price": 177786,
         "traveled": "2020 - 12,500 km",
         "title": "Royal Enfield classic 350 mat black original condition",
         "location": "Sanklit Nagar, Ahmedabad",
@@ -179,7 +179,7 @@
         {
         "id": "17",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/a3k1cy9k3bt92-IN/image;s=272x0",
-        "price": "28,000",
+        "price": 28000,
         "traveled": "2012 - 27,000 km",
         "title": "Good condition",
         "location": "Balongi, Mohali",
@@ -190,7 +190,7 @@
         {
         "id": "18",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/1u5efbtpa8xk3-IN/image;s=272x0",
-        "price": "55,000",
+        "price": 55000,
         "traveled": "2018 - 23,500 km",
         "title": "Passion x pro working fine but chasi dameg",
         "location": "Tilak Nagar, Delhi",
@@ -201,7 +201,7 @@
         {
         "id": "19",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/fvukla4cljj23-IN/image;s=272x0",
-        "price": "2,34,999",
+        "price": 234999,
         "traveled": "2022 - 0 km",
         "title": "150CC MINI JEEP AVAILABLE NOW/-",
         "location": "Kawaimari, Nagaon",
@@ -212,7 +212,7 @@
         {
         "id": "20",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/bh5mp6lisp12-IN/image;s=272x0",
-        "price": "85,000",
+        "price": 85000,
         "traveled": "2018 - 20,500 km",
         "title": "Suzuki Intruder",
         "location": "Patamata Lanka, Vijayawada",

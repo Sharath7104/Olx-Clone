@@ -186,6 +186,7 @@
   background-color: #fff;
 }
 #homepage_advertisement_scnd_child_div {
+  margin-top: 1px;
   margin-bottom: 40px;
   margin-left: -55px;
   position: sticky;
@@ -204,11 +205,15 @@
 #advertisement_homepage_bottom {
   margin-top: 30px;
   margin-left: 20%;
-  cursor: pointer;
 }
 #advertisement_homepage_bottom img {
   width: 75%;
 }
+
+
+
+
+
   /* ?  ====== MEDIA QUERY ======  */
   
   /** MEDIUM SCREEN */
@@ -479,8 +484,5 @@
       margin-left: -50px;
     }
   
-  } 
-  
+  }
 
-
-  
