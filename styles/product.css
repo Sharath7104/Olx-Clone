@@ -14,7 +14,6 @@
 #categories{
     width: 25%;
     border: 0px solid red;
-    height: 800px;
 }
 #cards{
     width: 75%;
@@ -33,9 +32,7 @@
     text-align: 20px; 
     padding: 5px;
 }
-/* .card h4{ */
-    /* margin-top: -8px; */
-/* } */
+
 .card h5{
     /* margin-top: -8px; */
     font-weight: 600;
@@ -45,9 +42,11 @@
 }
 .cardimg{
     height: 150px;
+    padding:0px 30px;
+    margin-left: 20px;
 }
 .cardimg img{
    height: 100%;
-   width: 100%;
+   width: 80%;
    border-radius: 5px;
 }

@@ -118,45 +118,50 @@ function setData(el){
     localStorage.setItem("local_Key",JSON.stringify(productData))
 }
 
-// sortbyName()
-// let selectnames = document.getElementById("")
 
-// function sortbyName(){
-//     if(selectnames.value=="ASC"){
-//       actual_data.sort(function(a,b){
-//         if(a.name>b.name){
-//           return 1;
-//         }if(a.name<b.name){
-//           return -1;
-//         }else{
-//           return 0;
-//         }
-//     });displayProducts(actual_data)
-//   } else if(selectnames.value=="DSC"){
-//     actual_data.sort(function(a,b){
-//       if(a.name>b.name){
-//         return -1;
-//       }if(a.name<b.name){
-//         return 1;
-//       }else{
-//         return 0;
-//       }
-//     });displayProducts(actual_data)
+
+
+// let id;
+
+// function debounce(func,delay){
+
+//     if(id){
+//         clearTimeout(id);
+//     }
+
+//     id = setTimeout(function(){
+//         func();
+//     },delay);
+// }
+
+
+
+// async function searchMovies(){
+//   // let product_name = document.getElementById("searchField").value;
+//   let movie_name = document.getElementById("searchField").value;
+//   try{
+//     // let response = await fetch(`https://636a74ebb10125b78fdbef78.mockapi.io/${product_name}`);
+//       let response = await fetch(`https://www.omdbapi.com/?apikey=f3d5c71f&s=${movie_name}`);
+//      // let response = await fetch(`https://api.hotstar.com/s/sniper/forerunner?q=${movie_name}&size=50&offset=0`)
+//       let newdata = await response.json();
+//       console.log("data:",newdata);
+//       let dat = newdata.Search;
+//       console.log("new",dat)
+      
+  
+//       //console.log("actual_data:",actual_data);
+//       displayProducts(newdata);;
 //   }
-
-//   }
-
-//   function sortbyPrice(){
-//     if(selectprice.value=="Price: High to Low"){
-//       actual_data.sort(function(a,b){
-//       return b.price-a.price;
-//     });
-//     displayProducts(actual_data);
-//   } else if(selectprice.value=="Price: Low to High"){
-//     actual_data.sort(function(a,b){
-//         console.log("a-b")
-//       return a.price-b.price;
-//     });
-//     displayProducts(actual_data);
+//   catch(err){
+//       console.log("err:","no data found");
+//       // displayProducts(data);
 //   }
 // }
+
+function search() {
+  let input = document.getElementById("searchField").value;
+  let newdata = data.filter(function (elem) {
+      return elem.title.toLowerCase().includes(input.toLowerCase())
+  })
+  displayProducts(newdata)
+}
