@@ -183,4 +183,10 @@ function setData(el){
             listddmenu.style.display = "none"
         }
     })
-
+    function search() {
+        let input = document.getElementById("searchField").value;
+        let newdata = data.filter(function (elem) {
+            return elem.title.toLowerCase().includes(input.toLowerCase())
+        })
+        displayProducts(newdata)
+      }

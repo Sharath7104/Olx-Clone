@@ -108,3 +108,11 @@ function setData(el){
     console.log(productData)
     localStorage.setItem("local_Key",JSON.stringify(productData))
 }
+// search function------------------------->
+function search() {
+  let input = document.getElementById("searchField").value;
+  let newdata = data.filter(function (elem) {
+      return elem.title.toLowerCase().includes(input.toLowerCase())
+  })
+  displayProducts(newdata)
+}
