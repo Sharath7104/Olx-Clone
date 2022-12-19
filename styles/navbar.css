@@ -15,10 +15,10 @@ body{
 }
 #logoimg{
     cursor: pointer;
+    height: 100%;
 }
 #main-navbar{
     width: 100%;
-    position: fixed;
     margin-top: -100px;
 }
 #main-heading-navbar{
@@ -309,7 +309,10 @@ body{
     margin-bottom: 10px;
     padding:10px ;
 }
-
+.ddmenu a{
+  text-decoration: none;
+  color: rgba(0, 47, 52, 0.64);
+}
 .ddmenu div{
     cursor: pointer;
 }
@@ -468,11 +471,32 @@ body{
     .search_box{
         display: none;
     }
-
+    #main-heading-navbar{
+        width: 100%;
+    }
+    #logoimg{
+        height: 100%;
+        width: 15%;
+    }
+    .sub_nav_bar{
+        display: none;;
+    }
     .country_select{
         display: none;
     }
  /* 16e6500e79c5f67e343ab085e9397f1b303ad5ff:navbar.css */
+}
+
+
+
+@media all and (min-width:768px) and (max-width:1023px){
+    #main-heading-navbar{
+        height: 120%;
+        /* width: 13%; */
+    }
+    #logoimg{
+        height: 100%;
+    }
 }
 
 

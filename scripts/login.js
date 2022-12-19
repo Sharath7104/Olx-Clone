@@ -7,7 +7,7 @@ let loginbtn=document.getElementById('submit');
 loginbtn.addEventListener("click",async function(){
     let email=document.getElementById('email').value;
      let password=document.getElementById('password').value;
-    let response=await fetch(`http://localhost:3000/user?email=${email}`);
+    let response=await fetch(`https://636a5574c07d8f936d9a9502.mockapi.io/users?email=${email}`);
     let data=await response.json();
       checkdata(data,email)
       console.log(details)
