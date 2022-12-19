@@ -212,3 +212,18 @@ a{
   float: right;
   color: blue;
 }
+
+@media all and (min-width:768px) and (max-width:1023px){
+  #signup{
+    margin-left: 320px;
+    margin-top: 10px;
+    width: 695px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgb(197, 185, 185);
+}
+}

@@ -13,12 +13,12 @@
 }
 #categories{
     width: 25%;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 800px;
 }
 #cards{
     width: 75%;
-    border: 1px solid green;
+    border: 0px solid green;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px; 
