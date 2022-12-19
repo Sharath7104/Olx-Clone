@@ -1,0 +1,31 @@
+### GET the Aparts data
+GET https://636a74ebb10125b78fdbef78.mockapi.io/electronics
+
+
+### POST new data
+POST https://636a74ebb10125b78fdbef78.mockapi.io/electronics
+Content-Type: application/json
+
+{
+    "price":"123000",
+    "data":"Dec 12",
+    "title":"2BHK at lonavala",
+    "location":"mumbai",
+    "image_src":"https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+}
+
+
+
+
+### delete data
+DELETE https://636a74ebb10125b78fdbef78.mockapi.io/electronics/43
+
+### GET bikes data
+GET https://636a74ebb10125b78fdbef78.mockapi.io/bikes
+
+### GET mobiles data
+GET https://636a74ebb10125b78fdbef78.mockapi.io/mobiles
+
+
+### GET homepage data
+GET https://636a74ebb10125b78fdbef78.mockapi.io/homepage 

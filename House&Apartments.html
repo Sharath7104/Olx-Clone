@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f584623432.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;lang=en" />
-    <link rel="stylesheet" href="House&Apartments.css">
+    <link rel="stylesheet" href="./styles/House&Apartments.css">
+    
     <link rel="icon" type="image/x-icon" href="logo.png">
     <title>MAD - Free classifieds in India, Buy and Sell for free anywhere in India with OLX Online Classified Advertising</title>
 </head>
@@ -38,7 +39,7 @@
             <li class="breadcrumbs__item">
                 <a href="#" class="breadcrumbs__link">For Sale: Houses & Apartments</a>
             </li>
-            <a href="" class="change">Change</a>
+            <a href="sell.html" class="change">Change</a>
         </ul>
 
         <hr>
@@ -109,14 +110,14 @@
             <div class="inner__heading">
                 <div class="inner__title">Super Builtup area (ft²) *</div>
                 <div class="inner__input">
-                    <input type="number">
+                    <input type="number" id="sqft" required>
                 </div>
             </div>
 
             <div class="inner__heading">
                 <div class="inner__title">Carpet Area (ft²) *</div>
                 <div class="inner__input">
-                    <input type="number">
+                    <input type="number" id="carpetArea" required>
                 </div>
             </div>
 
@@ -153,7 +154,7 @@
             </div>
 
             <div class="inner__heading">
-                <div class="inner__title">Floor No</div>
+                <div class="inner__title">Facing</div>
                 <div class="inner__input">
                     <select name="facing" id="selectFacing">
                         <option value=""></option>
@@ -174,23 +175,22 @@
                 <div class="inner__input">
                     <input type="text">
                 </div>
-                <span>0 / 70</span>
             </div>
 
             <div class="inner__heading">
                 <div class="inner__title">Ad title *</div>
                 <div class="inner__input">
-                    <input type="text">
+                    <input type="text" id="title" required>
                 </div>
-                <p>A minimum length of 10 characters is required. Please edit the field.</p><span>0 / 70</span>
+                <p>A minimum length of 10 characters is required. Please edit the field.</p>
             </div>
 
             <div class="inner__heading">
                 <div class="inner__title">Description *</div>
                 <div class="inner__input">
-                    <textarea></textarea>
+                    <textarea id="description" required></textarea>
                 </div>
-                <p>A minimum length of 10 characters is required. Please edit the field.</p><span>0 / 4096</span>
+                <p>A minimum length of 10 characters is required. Please edit the field.</p>
             </div>
         </div>
 
@@ -201,7 +201,7 @@
         <div class="inner__heading">
             <div class="inner__title">Price *</div>
             <div class="inner__input">
-                <input type="number">
+                <input type="number" id="price" required>
             </div>
         </div>
 
@@ -305,23 +305,23 @@
         <div class="inner__heading">
             <div class="inner__title">State *</div>
             <div class="inner__input">
-                <select name="facing" id="selectFacing">
+                <select name="location" id="location" required>
                     <option value=""></option>
-                    <option value="">Andaman and Nicobar Islands</option>
-                    <option value="">Andhra Pradesh</option>
-                    <option value="">Arunachal Pradesh</option>
-                    <option value="">Assam</option>
-                    <option value="">Bihar</option>
-                    <option value="">Chandigarh</option>
-                    <option value="">Chhattisgarh</option>
-                    <option value="">Dadra and Nagar Haveli</option>
-                    <option value="">Daman and Diu</option>
-                    <option value="">Delhi</option>
-                    <option value="">Goa</option>
-                    <option value="">Gujarat</option>
-                    <option value="">Himachal Pradesh</option>
-                    <option value="">Karnataka</option>
-                    <option value="">Uttar Pradesh</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
                 </select>
             </div>
             <p style="color: red;">This field is mandatory</p>
@@ -334,7 +334,7 @@
         <div class="inner__heading">
             <div class="inner__title">Name</div>
             <div class="inner__input">
-                <input type="text">
+                <input type="text" id="name" required>
             </div>
             <span>0 / 30</span>
         </div>
@@ -342,7 +342,7 @@
         <div class="inner__heading">
             <div class="inner__title">Your phone number</div>
             <div class="inner__input">
-                <input type="number">
+                <input type="number" id="mob" required>
             </div>
         </div>
 
@@ -364,3 +364,6 @@
 </body>
 
 </html>
+
+
+<script src="./scripts/House&Apartments.js"></script>

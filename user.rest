@@ -1,0 +1,11 @@
+POST https://636a74ebb10125b78fdbef78.mockapi.io/user
+Content-Type: application/json
+
+
+{
+    "name":"kanwarpal singh",
+    "email":"kanwarpal@gmail.com",
+    "mobile": 9983280615,
+    "password":"9983280615@Kp",
+    "avatar": "https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+}

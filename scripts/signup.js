@@ -31,7 +31,7 @@ class User{
             this.mobile=m;
             this.avatar=a;
             this.status=s;
-            let res=await fetch('http://localhost:3000/user');
+            let res=await fetch('https://636a74ebb10125b78fdbef78.mockapi.io/user');
             let userdata=await res.json();
             let result=false;
             userdata.forEach((el)=>{
@@ -41,7 +41,7 @@ class User{
            }
         })
             if(result==false){
-              let response=await fetch('http://localhost:3000/user',{
+              let response=await fetch('https://636a74ebb10125b78fdbef78.mockapi.io/user',{
               method:'POST',
               body:JSON.stringify(this),
               headers:{
@@ -62,8 +62,9 @@ class User{
     let user=new User();
     let inp_image = document.getElementById("image");
 inp_image.onchange = () => {
-    handleImage();
 
+    handleImage();
+alert("image uploaded, Sign Up to continue")
 };
 
 
