@@ -132,3 +132,6 @@ function function_ls(obj){
 
 
 // --------------------------------------------------------->
+function viewmore(){
+  window.location.href = "phones.html"
+}
