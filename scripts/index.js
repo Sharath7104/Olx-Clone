@@ -1,7 +1,6 @@
 function viewmore(){
   window.location.href = "phones.html"
 }
-
 // * ------------------------>> FETCH DATA  <<-------------------------------------
 let url = "https://636a74ebb10125b78fdbef78.mockapi.io/homepage";
 async function fetchData() {

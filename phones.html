@@ -15,7 +15,7 @@
     <div id="main-heading-navbar">
         <div class="header">
             <div class="navbar">
-                <img id="logoimg" src="https://i.ibb.co/xMNWymg/MAd-1.png">
+                <img id="logoimg" src="./img/MAdlogo.png">
     
                 <div class="country_select" id="country">
                     <div class="select">
@@ -332,41 +332,18 @@
                         <hr>
                         <div id="filter_by_brand">
                             <h4>BRANDS</h4>
-                            <input type="text" id="search_brand" placeholder="Search Brands">
+                            <input oninput="search()" type="text" id="searchField" placeholder="Search Brands">
                             <div id="allBrands" class="scroll labels"></div>
                         </div>
                         <hr>
                         <div id="filter_by_type">
-                            <h4>type</h4>
-                            <input type="text" id="search_type" placeholder="Search Product Form">
+                            <h4>Latest</h4>
+                            <input type="text" id="search_type" placeholder="Search Latest Product">
                             <div id="allTypes" class="scroll labels"></div>
                         </div>
                         <hr>
-                        <div id="filter_by_discount">
-                            <h4>DISCOUNT</h4>
-                            <div id="allDiscounts" class="labels"></div>
-                            <div class="labels">
-                                <div>
-                                    <input type="checkbox" name="" id="_lte=10" class="checkbox">
-                                    <h5>Less than 10%</h5>
-                                </div>
-                                <div>
-                                    <input type="checkbox" name="" id="_gte=9" class="checkbox">
-                                    <h5>10% and above</h5>
-                                </div>
-                                <div>
-                                    <input type="checkbox" name="" id="_gte=19" class="checkbox">
-                                    <h5>20% and above</h5>
-                                </div>
-                                <div>
-                                    <input type="checkbox" name="" id="_gte=29" class="checkbox">
-                                    <h5>30% and above</h5>
-                                </div>
-                            </div>
-                            
-                        </div>
                     </div>
-                    <hr>
+                    
                     <div id="sorting">
                         <p>Sort</p>
                         <select name="" id="sort">
