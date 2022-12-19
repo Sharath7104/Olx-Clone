@@ -488,6 +488,7 @@ body{
 }
 
 
+
 @media all and (min-width:768px) and (max-width:1023px){
     #main-heading-navbar{
         height: 120%;
@@ -497,3 +498,5 @@ body{
         height: 100%;
     }
 }
+
+

@@ -7,8 +7,9 @@
     width: 40%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 #container input{
     height: 30px;
@@ -19,20 +20,19 @@
     border-right: none;
     border-width: 3px;
     width: 400px;
+    outline: none;
 }
 h1{
     margin-bottom: 50px;
     color: teal;
 }
 p{
-    margin-left: 420px;
-    text-decoration: underline;
+    margin-top: -30px;
+    margin-left: 480px;
 }
 a{
     margin-left: 500px;
     color: teal;
-    text-decoration: none;
-    font-size: 20px;
 }
 button{
   text-decoration: none;

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admindashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <div id="navbarhead">
+        <div id="navbar_wrapper">
+            <div class="adminlogo">
+                <img width="10%" src="./MAdlogo.png" alt="" style="padding:6px">
+            </div>
+            <div class="adminmenus">
+                <div><a href="">Dashboard</a> </div>
+                <div><a href="./adminlogin.html">Logout</a> </div>
+                <div><a href="">Hello admin</a> </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mainpage -->
+    <div class="dashboardmain">
+        <div class="dashcontainer">
+            <div class="dmaincard" id="userscard">
+                <div class="dfirstcard">
+                    <div class="dcontent">
+                        <div class="contentflexone">
+                            <div class="dtext">
+                                No of Users
+                            </div>
+                            <div class="dcount">
+                                
+                            </div>
+                        </div>
+                        <div class="contentflextwo">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dmaincard" id="bikescard">
+                <div class="dfirstcard">
+                    <div class="dcontent">
+                        <div class="contentflexone">
+                            <div class="dtext">
+                                DisplayAd Category: Bikes
+                            </div>
+                            <div class="dcount">
+                                
+                            </div>
+                        </div>
+                        <div class="contentflextwo">
+                            <i class="fa fa-motorcycle" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dmaincard" id="mobilescard">
+                <div class="dfirstcard">
+                    <div class="dcontent">
+                        <div class="contentflexone">
+                            <div class="dtext">
+                                DisplayAd Category: Mobiles
+                            </div>
+                            <div class="dcount">
+                                
+                            </div>
+                        </div>
+                        <div class="contentflextwo">
+                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dmaincard" id="apartmentscard">
+                <div class="dfirstcard">
+                    <div class="dcontent">
+                        <div class="contentflexone">
+                            <div class="dtext">
+                                DisplayAd Category: Apartments
+                            </div>
+                            <div class="dcount">
+                                
+                            </div>
+                        </div>
+                        <div class="contentflextwo">
+                            <i class="fa fa-building" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="noofusers" style="display:none">
+            <div>
+                <h3>Displaying all users</h3>
+            </div>
+            <div class="displayusers">
+               
+
+                <div class="userdisplaytable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>id</td>
+                                <td>Name</td>
+                                <td>Mobile</td>
+                                <td>Email</td>
+                                <td>image</td>
+                                <td>password</td>
+                                <td>Delete User</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodyusers">
+                            <!-- <tr>
+                                <td>Sharath</td>
+                                <td>5456685</td>
+                                <td>sharew@d.com</td>
+                                <td>image</td>
+                                <td>46584sdf</td>
+                                <td><a href="">Delete</a></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="displaybikesad" style="display:none">
+            <div>
+                <h3>Displaying all Bike Ads</h3>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>id</td>
+                            <td>Image</td>
+                            <td>Price</td>
+                            <td>Travelled</td>
+                            <td>Title</td>
+                            <td>Location</td>
+                            <td>Date</td>
+                            <td>Delete Post</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodybikes">
+                        <!-- <tr>
+                            <td>1</td>
+                            <td><img width="50%"
+                                    src="https://apollo-singapore.akamaized.net/v1/files/5d0pk60roid01-IN/image;s=272x0"
+                                    alt=""></td>
+                            <td>1,20,000</td>
+                            <td>2021 - 6000km</td>
+                            <td>title</td>
+                            <td>Bangalore</td>
+                            <td>current date</td>
+                            <td><a href="">Delete</a></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="displaymobilesad" style="display:none">
+            <div>
+                <h3>Displaying all Mobile Ads</h3>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>id</td>
+                            <td>Image</td>
+                            <td>Price</td>
+                            <td>Title</td>
+                            <td>Location</td>
+                            <td>Date</td>
+                            <td>Delete Post</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodymobiles">
+                        <!-- <tr>
+                            <td>1</td>
+                            <td><img width="50%" src="https://apollo-singapore.akamaized.net/v1/files/gek1enjrcjd2-IN/image;s=272x0" alt=""></td>
+                            <td>1,20,000</td>
+                            <td>title</td>
+                            <td>Bangalore</td>
+                            <td>current date</td>
+                            <td><a href="">Delete</a></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="displayapartmentad" style="display:none">
+            <div>
+                <h3>Displaying all Apartments Ads</h3>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>id</td>
+                            <td>Image</td>
+                            <td>Price</td>
+                            <td>Title</td>
+                            <td>Location</td>
+                            <td>Date</td>
+                            <td>Delete Post</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyapartment">
+                        <!-- <tr>
+                            <td>1</td>
+                            <td><img width="50%"
+                                    src="https://apollo-singapore.akamaized.net/v1/files/1y7yj9b66zb4-IN/image;s=272x0"
+                                    alt=""></td>
+                            <td>1,20,000</td>
+                            <td>title</td>
+                            <td>Bangalore</td>
+                            <td>current date</td>
+                            <td><a href="">Delete</a></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    let usercard = document.getElementById("userscard")
+    let bikescard = document.getElementById("bikescard")
+    let mobilescard = document.getElementById("mobilescard")
+    let apartmentscard = document.getElementById("apartmentscard")
+
+    let displayusers = document.getElementById("noofusers");
+    let displaybikes = document.getElementById("displaybikesad")
+    let displaymobiles = document.getElementById("displaymobilesad")
+    let displayapartments = document.getElementById("displayapartmentad")
+
+
+    usercard.addEventListener("click", function () {
+        displayusers.style.display = "block"
+        displaybikes.style.display = "none"
+        displaymobiles.style.display = "none"
+        displayapartments.style.display = "none"
+    })
+
+    bikescard.addEventListener("click", function () {
+        
+        displayusers.style.display = "none"
+        displaybikes.style.display = "block"
+        displaymobiles.style.display = "none"
+        displayapartments.style.display = "none"
+    })
+
+    mobilescard.addEventListener('click', function () {
+        displayusers.style.display = "none"
+        displaybikes.style.display = "none"
+        displaymobiles.style.display = "block"
+        displayapartments.style.display = "none"
+    })
+
+    apartmentscard.addEventListener("click", function () {
+        displayusers.style.display = "none"
+        displaybikes.style.display = "none"
+        displaymobiles.style.display = "none"
+        displayapartments.style.display = "block"
+    })
+
+    let mobileurl = "https://636a74ebb10125b78fdbef78.mockapi.io/mobiles"
+    let bikesurl = "https://636a74ebb10125b78fdbef78.mockapi.io/bikes"
+    let apartmenturl = "https://636a74ebb10125b78fdbef78.mockapi.io/electronics"
+    let usersurl = "https://636a5574c07d8f936d9a9502.mockapi.io/users"
+
+    fetchMobile()
+    fetchbikes()
+    fetchapartments()
+    fetchusers()
+
+    async function fetchusers(){
+        try{
+            let response = await fetch(usersurl);
+           
+            if(response.ok==true){
+                // let total_users_count= response.headers.get("x-total-count");
+                // console.log(total_users_count)
+                let users = await response.json();
+                displayusersData(users)
+            }
+            
+        }
+        catch(err){
+            console.log(err)
+        }
+    }
+
+    function displayusersData(data){
+        let userstbody = document.getElementById("tbodyusers")
+        let deleteusers = document.getElementById("deleteusers")
+        userstbody.innerHTML = ""
+        let renderdata = data.map(element => {
+            return `
+                        <tr>
+                            <td>${element.id}</td>
+                            <td>${element.username}</td>
+                            <td>${element.mobile}</td>
+                            <td>${element.email}</td>
+                                <td><img width="50%"
+                                    src=${element.avatar}
+                                    alt=""></td>
+                                <td>${element.password}</td>
+                            <td><button id="deleteusers" onclick="deleteusers(${element.id})">Delete</button></td>
+                        </tr>
+            `
+        });
+
+        userstbody.innerHTML = renderdata.join("")
+    }
+
+    async function deleteusers(id){
+        try {
+            let response = await fetch(`${usersurl}/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Content-Type": "application/json",
+                }
+            })
+
+            if (response.ok == true) {
+                let mobile = await response.json();
+                fetchusers()
+            }
+        }
+        catch (err) {
+            alert(err)
+        }
+    }
+
+
+    async function fetchapartments(){
+        try{
+            let response = await fetch(apartmenturl)
+            // let total = response.headers.get('X-Total-Count');
+            // console.log(total)
+            let apartments = await response.json();
+
+            displayApartmentsData(apartments)
+        }
+        catch(err){
+            console.log(err)
+        }
+    }
+
+    function displayApartmentsData(data){
+       // console.log(data)
+        let apartmenttbody = document.getElementById("tbodyapartment")
+        let deleteapartment = document.getElementById("deleteapartment")
+        apartmenttbody.innerHTML = ""
+        let renderdata = data.map(element => {
+            return `
+                        <tr>
+                            <td>${element.id}</td>
+                            <td><img width="50%"
+                                    src=${element.image_src}
+                                    alt=""></td>
+                            <td>${element.price}</td>
+                            <td>${element.title}</td>
+                            <td>${element.location}</td>
+                            <td>${element.date}</td>
+                            <td><button id="deleteapartment" onclick="deleteapartment(${element.id})">Delete</button></td>
+                        </tr>
+
+            `
+        });
+
+        apartmenttbody.innerHTML = renderdata.join("")
+    }
+
+    async function deleteapartment(id){
+        try {
+            let response = await fetch(`${apartmenturl}/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Content-Type": "application/json",
+                }
+            })
+
+            if (response.ok == true) {
+                let mobile = await response.json();
+                fetchapartments()
+            }
+        }
+        catch (err) {
+            alert(err)
+        }
+    }
+
+    async function fetchbikes() {
+        try {
+            let response = await fetch(bikesurl);
+            let mobiles = await response.json();
+
+            displayBikesData(mobiles)
+        }
+        catch (err) {
+            console.log(err)
+        }
+    }
+
+ 
+    function displayBikesData(data){
+        let bikestbody = document.getElementById("tbodybikes")
+        let deletebike = document.getElementById("deletebike")
+        bikestbody.innerHTML = ""
+        let renderdata = data.map(element => {
+            return `
+                        <tr>
+                            <td>${element.id}</td>
+                            <td><img width="50%"
+                                    src=${element.image_src}
+                                    alt=""></td>
+                            <td>${element.price}</td>
+                            <td>${element.traveled}</td>
+                            <td>${element.title}</td>
+                            <td>${element.location}</td>
+                            <td>${element.date}</td>
+                            <td><button id="deletebike" onclick="deletebike(${element.id})">Delete</button></td>
+                        </tr>
+            `
+        });
+
+        bikestbody.innerHTML = renderdata.join("")
+    }
+
+    async function deletebike(id){
+        try {
+            let response = await fetch(`${bikesurl}/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Content-Type": "application/json",
+                }
+            })
+
+            if (response.ok == true) {
+                let mobile = await response.json();
+                fetchbikes()
+            }
+        }
+        catch (err) {
+            alert(err)
+        }
+    }
+
+    async function fetchMobile() {
+        try {
+            let response = await fetch(mobileurl);
+            let mobiles = await response.json();
+
+            displayMobilesData(mobiles)
+        }
+        catch (err) {
+            console.log(err)
+        }
+    }
+
+
+
+    function displayMobilesData(data) {
+        let mobiletbody = document.getElementById("tbodymobiles")
+        let deletemobile = document.getElementById("deletemobile")
+        mobiletbody.innerHTML = ""
+        let renderdata = data.map(element => {
+            return `
+                        <tr>
+                            <td>${element.id}</td>
+                            <td><img width="50%" src=${element.image_src} alt=""></td>
+                            <td>${element.price}</td>
+                            <td>${element.title}</td>
+                            <td>${element.location}</td>
+                            <td>${element.date}</td>
+                            <td><button id="deletemobile" onclick="deletemobiles(${element.id})">Delete</button></td>
+                        </tr>
+            `
+        });
+
+        mobiletbody.innerHTML = renderdata.join("")
+    }
+
+
+    async function deletemobiles(id) {
+        try {
+            let response = await fetch(`${mobileurl}/${id}`, {
+                method: "DELETE",
+                headers: {
+                    "Content-Type": "application/json",
+                }
+            })
+
+            if (response.ok == true) {
+                let mobile = await response.json();
+                fetchMobile()
+            }
+        }
+        catch (err) {
+            alert(err)
+        }
+    }
+
+
+
+</script>
