@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/product.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/navbar.css">
@@ -77,7 +78,7 @@
     
     
                 <div class="message">
-                    <i class="fa-regular fa-comment"></i>
+                    <a href="chat.html"><i class="fa-regular fa-comment"></i></a>
                 </div>
     
     
@@ -334,39 +335,15 @@
                         <h4>FILTERS</h4>
                         <hr>
                         <div id="filter_by_brand">
-                            <h4>BRANDS</h4>
-                            <input type="text" id="search_brand" placeholder="Search Brands">
+                            <h4>Title</h4>
+                            <input oninput="search()" type="text" id="searchField" placeholder="Search By Title">
                             <div id="allBrands" class="scroll labels"></div>
                         </div>
                         <hr>
                         <div id="filter_by_type">
-                            <h4>type</h4>
-                            <input type="text" id="search_type" placeholder="Search Product Form">
+                            <h4>Latest</h4>
+                            <input type="text" id="search_type" placeholder="Search Latest Houses">
                             <div id="allTypes" class="scroll labels"></div>
-                        </div>
-                        <hr>
-                        <div id="filter_by_discount">
-                            <h4>DISCOUNT</h4>
-                            <div id="allDiscounts" class="labels"></div>
-                            <div class="labels">
-                                <div>
-                                    <input type="checkbox" name="" id="_lte=10" class="checkbox">
-                                    <h5>Less than 10%</h5>
-                                </div>
-                                <div>
-                                    <input type="checkbox" name="" id="_gte=9" class="checkbox">
-                                    <h5>10% and above</h5>
-                                </div>
-                                <div>
-                                    <input type="checkbox" name="" id="_gte=19" class="checkbox">
-                                    <h5>20% and above</h5>
-                                </div>
-                                <div>
-                                    <input type="checkbox" name="" id="_gte=29" class="checkbox">
-                                    <h5>30% and above</h5>
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                     <hr>
