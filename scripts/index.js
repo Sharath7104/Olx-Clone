@@ -129,8 +129,9 @@ for (let i = 0; i < headButton.length; i++) {
 
 // * -------------------------->> LS <<---------------------------------
 function function_ls(obj){
-    localStorage.setItem("local_Key",JSON.stringify(obj));
-
+  // let productData = [];
+  // productData.push(obj);
+  localStorage.setItem("local_Key",JSON.stringify([obj]));
 };
 
 

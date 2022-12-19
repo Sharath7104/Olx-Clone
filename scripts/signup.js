@@ -60,10 +60,10 @@ class User{
       }  
     } 
     let user=new User();
-    let inp_image = document.getElementById("image");
+let inp_image = document.getElementById("image");
 inp_image.onchange = () => {
 
-    handleImage();
+handleImage();
 alert("image uploaded, Sign Up to continue")
 };
 
