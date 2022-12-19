@@ -10,8 +10,39 @@ var objToday = new Date(),
 var today = `${curMonth} ${dayOfMonth}`;
 
 
+
+let inp_image = document.getElementById("firstimg");
+let image;
+inp_image.onchange = () => {
+
+handleImage();
+alert("image uploaded")
+};
+
+const handleImage = async () => {
+
+//1.accept the fle
+let img =document.getElementById("firstimg");
+let actual_img = img.files[0];
+console.log("img",actual_img);
+//imgbb is asking to send data in formdata object
+let form = new FormData();
+form.append("image",actual_img);
+let res = await fetch(`https://api.imgbb.com/1/upload?key=cee8518884c81f87302c5c79899caa97`,
+{
+    method:"POST",
+    body:form,
+}
+);
+let data = await res.json();
+ //console.log("datareal:",data);
+image = data.data.display_url;
+console.log("image_url:",image);
+};
+
+
 postBtn.addEventListener("click",async function(){
-    let image = document.getElementById("firstimg").value;
+    // let image = document.getElementById("firstimg").value;
     let brand = document.getElementById("brand").value;
     let Title = document.getElementById("title").value;
     let des = document.getElementById("description").value;
@@ -30,6 +61,7 @@ postBtn.addEventListener("click",async function(){
         phone : mob,
         date : today
     };
+    console.log(apartsObj)
     
     let post_request = await fetch(MobilesURL,{
         method : "POST",
