@@ -39,6 +39,7 @@ function displayData(data) {
     imge.src = data[i].img_src;
     imge.addEventListener("click",(event)=>{
         function_ls(data[i]);
+        document.location.href="../productdetails.html"
 
     });
 
