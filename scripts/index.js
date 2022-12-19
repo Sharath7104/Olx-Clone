@@ -1,5 +1,5 @@
 
-// * ------------------------>> FETCH DATA  <<-------------------------------------
+// * ------------------------>> FETCH DATA <<-------------------------------------
 let url = "https://636a74ebb10125b78fdbef78.mockapi.io/homepage";
 async function fetchData() {
   try {
@@ -12,7 +12,7 @@ async function fetchData() {
 }
 fetchData();
 
-// * ------------------------>> DISPLAY DATA  <<-------------------------------------
+// * ------------------------>> DISPLAY DATA <<-------------------------------------
 let scnd_div = document.querySelector("#homepage_scnd_child");
 function displayData(data) {
   scnd_div.innerHTML = "";

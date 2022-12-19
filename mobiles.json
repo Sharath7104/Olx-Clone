@@ -3,7 +3,7 @@
         {
         "id": "1",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/gek1enjrcjd2-IN/image;s=272x0",
-        "price": "60,000",
+        "price": 60000,
         "title": "iphone 13 128 GB 2month old phone I bought this from icorner shimoga",
         "location": "Vinobanagara, Shivamogga",
         "date": "Dec 06",
@@ -13,7 +13,7 @@
         {
         "id": "2",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/7azoz36c3n453-IN/image;s=272x0",
-        "price": "63,000",
+        "price": 63000,
         "title": "I phone 12 pro mex 500 gb",
         "location": "Malad West, Mumbai",
         "date": "Nov 25",
@@ -23,7 +23,7 @@
         {
         "id": "3",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/v7i2z3e0zjfy-IN/image;s=272x0",
-        "price": "39,990",
+        "price": 39990,
         "title": "IPHONES ALL MODELS ARE AVILABLE HERE AND ALL FINANCE ARE AVILABLE HERE",
         "location": "Karamana, Thiruvananthapuram",
         "date": "5 days ago",
@@ -33,7 +33,7 @@
         {
         "id": "4",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/1n8j9heevegg1-IN/image;s=272x0",
-        "price": "4,000",
+        "price": 4000,
         "title": "Redmi note 7",
         "location": "Tawri Pada, Thane",
         "date": "Today",
@@ -43,7 +43,7 @@
         {
         "id": "5",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/mh6rvt2weed72-IN/image;s=272x0",
-        "price": "15,500",
+        "price": 15500,
         "title": "Good kandisan",
         "location": "Baraichpur, Ladwa",
         "date": "Today",
@@ -53,7 +53,7 @@
         {
         "id": "6",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/99fk15lld9v03-IN/image;s=272x0",
-        "price": "22,000",
+        "price": 22000,
         "title": "Vivo V23 gold",
         "location": "Bijapur Rural, Vijayapura",
         "date": "Today",
@@ -63,7 +63,7 @@
         {
         "id": "7",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/v7i2z3e0zjfy-IN/image;s=272x0",
-        "price": "1,000",
+        "price": 1000,
         "title": "Lava and samsung keypad phone for sell",
         "location": "Ghanta Ghar, Meerut",
         "date": "Today",
@@ -73,7 +73,7 @@
         {
         "id": "8",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/1oaayifqnghr1-IN/image;s=272x0",
-        "price": "15,000",
+        "price": 15000,
         "title": "One plus nord ce 2",
         "location": "Ghatlodia, Ahmedabad",
         "date": "Today",
@@ -83,7 +83,7 @@
         {
         "id": "9",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/vxy0yxdj48rn-IN/image;s=272x0",
-        "price": "7,500",
+        "price": 7500,
         "title": "Oppo A5s 3gb/32gb good condition Black colour 1 year old...",
         "location": "Tulsi Nagar, Bareilly",
         "date": "Today",
@@ -93,7 +93,7 @@
         {
         "id": "10",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/gek1enjrcjd2-IN/image;s=272x0",
-        "price": "1,25,000",
+        "price": 125000,
         "title": "Samsung FOLD4 Gold colour 512gb 3month old & exchange available",
         "location": "Sigra, Varanasi",
         "date": "Today",
@@ -103,7 +103,7 @@
         {
         "id": "11",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/7azoz36c3n453-IN/image;s=272x0",
-        "price": "21,000",
+        "price": 21000,
         "title": "Xiaomi 11T pro 5g 8/128",
         "location": "Teachers Colony, Namakkal",
         "date": "Today",
@@ -113,7 +113,7 @@
         {
         "id": "12",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/v7i2z3e0zjfy-IN/image;s=272x0",
-        "price": "6,000",
+        "price": 6000,
         "title": "Vivo v15 mobile",
         "location": "Vashi, Navi Mumbai",
         "date": "Today",
@@ -123,7 +123,7 @@
         {
         "id": "13",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/1n8j9heevegg1-IN/image;s=272x0",
-        "price": "3,500",
+        "price": 3500,
         "title": "Real me 2 pro phone, good condition",
         "location": "Malad East, Mumbai",
         "date": "Today",
@@ -133,7 +133,7 @@
         {
         "id": "14",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/mh6rvt2weed72-IN/image;s=272x0",
-        "price": "12,499",
+        "price": 12499,
         "title": "Motorola g52",
         "location": "Qazipur, Patna",
         "date": "Today",
@@ -143,7 +143,7 @@
         {
         "id": "15",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/99fk15lld9v03-IN/image;s=272x0",
-        "price": "26,000",
+        "price": 26000,
         "title": "OnePlus Nord2t",
         "location": "Pandaveswar, Dalurband",
         "date": "Today",
@@ -153,7 +153,7 @@
         {
         "id": "16",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/v7i2z3e0zjfy-IN/image;s=272x0",
-        "price": "56,000",
+        "price": 56000,
         "title": "12 pro max 128gb space grey",
         "location": "Anand Vihar, Delhi",
         "date": "Today",
@@ -163,7 +163,7 @@
         {
         "id": "17",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/1oaayifqnghr1-IN/image;s=272x0",
-        "price": "1,09,999",
+        "price": 109999,
         "title": "Samsung galaxy Fold 4 12/512 global pack pice all colours available",
         "location": "Khadki, Pune",
         "date": "Today",
@@ -173,7 +173,7 @@
         {
         "id": "18",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/vxy0yxdj48rn-IN/image;s=272x0",
-        "price": "28,000",
+        "price": 28000,
         "title": "OnePlus 10R",
         "location": "Tin Plate No 10 Basti, Jamshedpur",
         "date": "Today",
@@ -183,7 +183,7 @@
         {
         "id": "19",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/7azoz36c3n453-IN/image;s=272x0",
-        "price": "8,800",
+        "price": 8800,
         "title": "Priv STV100-1",
         "location": "Income Tax Colony, Gorakhpur",
         "date": "Nov 24",
@@ -193,7 +193,7 @@
         {
         "id": "20",
         "image_src": "https://apollo-singapore.akamaized.net/v1/files/gek1enjrcjd2-IN/image;s=272x0",
-        "price": "68,800",
+        "price": 68800,
         "title": "iPhone 12 Pro 256GB With 1 Year Warranty & Gst Bill + Emi Available",
         "location": "Old Padra Road, Vadodara",
         "date": "Nov 12",
