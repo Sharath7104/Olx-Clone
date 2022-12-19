@@ -323,7 +323,7 @@
     </div>
 
 
-    <div class="productmain">
+    <div class="productmain" id="productmainappend">
         <!-- <div class="product_img">
             <div class="image_discription">
                 <div class="swiper">
@@ -491,7 +491,87 @@
 </body>
 </html>
 <script src="./scripts/navbar.js"></script>
+<script>
+    let lsdata = JSON.parse(localStorage.getItem("local_Key"))
+    // console.log(lsdata)
+    let mainContainer = document.getElementById("productmainappend")
+    mainContainer.innerHTML = ""
 
+    let product = lsdata.map((element)=>{
+        console.log(element)
+        return `
+    <div class="product_img">
+            <div class="image_discription">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> <img src=${element.image_src}> </div>
+                        <div class="swiper-slide"> <img src=${element.image_src}></div>
+                        <div class="swiper-slide"> <img src=${element.image_src}></div>
+                        <div class="swiper-slide"> <img src=${element.image_src}></div>
+    
+                    </div>
+    
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev" id="prev"></div>
+                    <div class="swiper-button-next" id="next"></div>
+                </div>
+    
+                <div class="itemdescription">
+                    <h3> Description </h3>
+                    <p>Brand: ${element.brand} <br>
+                        ${element.description} <br>
+                        ${element.title} <br>
+                        Price: <span style="font-weight:bolder">${element.price}</span> and it's negotiable
+                        </p>
+                </div>
+            </div>
+
+            <div class="product_details">
+                <div class="box">
+                    <div class="price">
+                        <h3> ₹ ${element.price}</h3>
+                        <div>
+                            <p><i class="fa-solid fa-share-nodes"></i> </p>
+                            <p> <i class="fa-regular fa-heart"></i> </p>
+                        </div>
+                    </div>
+                    <p>${element.traveled}</p>
+                    <p> ${element.title} </p>
+                    <div class="location">
+                        <p>${element.location}</p>
+                        <p>${element.date}</p>
+                    </div>
+                </div>
+    
+                <div class="box" id="box2">
+                    <p class="Seller_description"> Seller Description </p>
+                    <div class="seller_detail">
+                        <img src="https://cdn.pixabay.com/photo/2015/03/04/22/35/avatar-659651__340.png">
+                        <div>
+                            <h2> Dr Naik </h2>
+                            <p>Member since Nov 2021</p>
+                        </div>
+                    </div>
+                    <a href="chat.html"> Chat with Seller  </a>
+    
+                </div>
+    
+             <div class="box" id="box3">
+                  <h2> Posted in </h2>
+                  <p>${element.location}</p>
+                  <img src="https://wp.inews.co.uk/wp-content/uploads/2019/06/google-maps.jpg" >
+             </div>
+    
+    
+    
+            </div>
+        </div> 
+    `
+   
+
+    })
+    mainContainer.innerHTML = product
+</script>
    
 
 
