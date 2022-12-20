@@ -36,7 +36,7 @@ function displayData(data) {
     
     let div = document.createElement("div");
     let imge = document.createElement("img");
-    imge.src = data[i].img_src;
+    imge.src = data[i].image_src;
     imge.addEventListener("click",(event)=>{
         function_ls(data[i]);
         document.location.href="../productdetails.html"
@@ -45,7 +45,7 @@ function displayData(data) {
 
 
     let price = document.createElement("h3");
-    price.innerText = "₹ " + data[i].Price;
+    price.innerText = "₹ " + data[i].price;
     
     let div2 = document.createElement("div");
     let title = document.createElement("p");
@@ -87,14 +87,14 @@ function displayData(data) {
 
       let div = document.createElement("div");
       let imge = document.createElement("img");
-      imge.src = data[i].img_src;
+      imge.src = data[i].image_src;
       imge.addEventListener("click",(event)=>{
         function_ls(data[i]);
 
     });
 
       let price = document.createElement("h3");
-      price.innerText = "₹ " + data[i].Price;
+      price.innerText = "₹ " + data[i].price;
 
       let div2 = document.createElement("div");
       let title = document.createElement("p");
