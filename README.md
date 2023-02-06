@@ -1,7 +1,7 @@
 # flimsy-drain-9129
 
 Original Website : OLX.com
-OLX makes it so easy to connect people to buy, sell or exchange used goods or products.
+<p>OLX makes it so easy to connect people to buy, sell or exchange used goods or products.</p>
 
 Project Name : MAD (Make A Deal)
 
