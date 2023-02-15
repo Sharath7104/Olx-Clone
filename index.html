@@ -1,580 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>MAD - Free classifieds in India , Buy & Sell</title>
-  </head>
-  <body>
-    <!-- <iframe
-      src="./navbar.html"
-      width="100%"
-      height="112"
-      frameborder="0"
-    ></iframe> -->
-    <div id="main-heading-navbar">
-      <div class="header">
-          <div class="navbar">
-              <img id="logoimg" src="./img/MAdlogo.png">
-  
-              <div class="country_select" id="country">
-                  <div class="select">
-                      <p id="text"> Location </p>
-                      <i class="fa-solid fa-chevron-down" id="moving"></i>
-                  </div>
-  
-  
-                  <ul class="option_box" id="list">
-                      <li class="option" onclick="myfunction('West Bengal')">
-                          <i class="fa-solid fa-location-dot"></i>
-                          <p>West Bengal</p>
-                      </li>
-                      <li class="option" onclick="myfunction('Uttar Pradesh')">
-                          <i class="fa-solid fa-location-dot"></i>
-                          <p>Uttar Pradesh</p>
-                      </li>
-                      <li class="option" onclick="myfunction('Karnataka')">
-                          <i class="fa-solid fa-location-dot"></i>
-                          <p>Karnataka</p>
-                      </li>
-                      <li class="option" onclick="myfunction('Bihar')">
-                          <i class="fa-solid fa-location-dot"></i>
-                          <p>Bihar</p>
-                      </li>
-                      <li class="option" onclick="myfunction('Maharashtra')">
-                          <i class="fa-solid fa-location-dot"></i>
-                          <p>Maharashtra</p>
-                      </li>
-                  </ul>
-              </div>
-  
-  
-  
-  
-  
-              <div class="search_box">
-                  <input type="text" class="searchclass" id="searchid" placeholder="Find Cars, mobile phone and More....">
-                  <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
-              </div>
-  
-  
-  
-  
-              <div class="language">
-                  <p id="eng_tag"> English</p>  <i class="fa-solid fa-chevron-down" id="moving"></i>
-                 
-                  <ul class="hin_eng">
-                      <li onclick="languageolx('English')"> English </li>
-                      <li onclick="languageolx('हिन्दी')">हिन्दी</li>
-                  </ul>
-  
-              </div>
-  
-  
-  
-  
-              <div class="message">
-                <a href="chat.html"><i class="fa-regular fa-comment"></i></a>
-              </div>
-  
-  
-  
-  
-              <div class="message">
-                  <i class="fa-regular fa-bell"></i>
-              </div>
-              <div class="your_logo">
-                  <div class="person_img" id="person_img_id">
-                      <div>
-                          <a class="button" href="#divOne">Login</a>
-                      </div>
-                      
-                      <div class="overlay" id="divOne">
-                          <div class="wrapper">
-                              <h2></h2><a class="close" href="#">&times;</a>
-                              <div class="content">
-                                  <div class="containerpopup">
-                                      <img width="60%" src="C:\Users\shara\Downloads\loginEntryPointPost.png" alt="">
-                                     
-                                      <div class="continuephone">
-                                        <i class="fa-solid fa-mobile"></i> <span>Continue with Phone</span>
-                                      </div>
-                                   
-                                      <div class="continueemail">
-                                        <i class="fa-brands fa-google"></i> <span>Continue with Google</span>
-                                      </div>
-                                      <br>
-                                      <div>
-                                          <p>OR</p>
-                                      </div>
-                                      <div class="loginwithemail_btn">
-                                          <a href="signup.html">Login as User</a>  ||
-                                            <a href="adminLogin.html">Login as Admin</a>
-                                      </div>
-  
-                                      <div>
-                                          <p>All your personal details are safe with us.</p>
-                                          <p>If you continue, you are accepting <a href="">OLX Terms and Conditions and Privacy Policy</a></p>
-                                      </div>
-                                  </div>
-  
-                              </div>
-                          </div>
-                      </div>
-                      <!-- <img src="C:\Users\shara\Downloads\1024px-Eo_circle_pink_white_letter-s.png"> -->
-                      
-                  </div>
-  
-                  <!-- <div class="dropdown" id="groupdownid">
-                      <div class="nameandimg">
-                          <img src="C:\Users\shara\Downloads\1024px-Eo_circle_pink_white_letter-s.png">
-                          
-                          <p> <span style="font-size:14px; color: rgb(149, 147, 144);"> Hello,</span> <br> Person Name <br>
-                              <span style="font-size:14px;"><a href="#" style="color:black">View and edit profile</a></span></p>
-                          
-                      </div>
-                      
-                      <ul>
-                          <li>
-                              <i class="fa fa-file-o" aria-hidden="true"></i>
-                              <p>My ADS</p>
-                          </li>
-                          <li>
-                              <i class="fa fa-file-text-o"></i>
-                              <p>Buy Business Packages</p>
-                          </li>
-                          <li>
-                              <i class="fa fa-window-maximize" aria-hidden="true"></i>
-                              <p>Bought Packages & Billing</p>
-                          </li>
-                          <hr>
-                          <li>
-                              <i class="fa-regular fa-circle-question"></i>
-                              <p>Help</p>
-                          </li>
-                          <hr>
-                          <li>
-                              <i class="fa-solid fa-gear"></i>
-                              <p>Setting</p>
-                          </li>
-                          <hr>
-                          <li>
-                              <i class="fa fa-download" aria-hidden="true"></i>
-                              <p>Install OLX Lite App</p>
-                          </li>
-                          <li>
-                              <i class="fa-solid fa-right-from-bracket"></i>
-                              <p>Log Out</p>
-                          </li>
-  
-                      </ul>
-                  </div> -->
-              </div>
-  
-  
-  
-  
-  
-              <div class="selling_page">
-                  <button id="goToSell"> <i class="fa-solid fa-plus"></i>
-                      <p> SELL</p>
-                  </button>
-              </div>
-  
-  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>MAD - Free classifieds in India , Buy & Sell</title>
+</head>
+
+<body>
+
+
+  <div id="main-heading-navbar">
+    <div class="header">
+      <div class="navbar">
+        <img id="logoimg" src="./img/MAdlogo.png">
+
+        <div class="country_select" id="country">
+          <div class="select">
+            <p id="text"> Location </p>
+            <i class="fa-solid fa-chevron-down" id="moving"></i>
           </div>
+
+
+          <ul class="option_box" id="list">
+            <li class="option" onclick="myfunction('West Bengal')">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>West Bengal</p>
+            </li>
+            <li class="option" onclick="myfunction('Uttar Pradesh')">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Uttar Pradesh</p>
+            </li>
+            <li class="option" onclick="myfunction('Karnataka')">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Karnataka</p>
+            </li>
+            <li class="option" onclick="myfunction('Bihar')">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Bihar</p>
+            </li>
+            <li class="option" onclick="myfunction('Maharashtra')">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Maharashtra</p>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+
+        <div class="search_box">
+          <input type="text" class="searchclass" id="searchid" placeholder="Find Cars, mobile phone and More....">
+          <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+        </div>
+
+
+
+
+        <div class="language">
+          <p id="eng_tag"> English</p> <i class="fa-solid fa-chevron-down" id="moving"></i>
+
+          <ul class="hin_eng">
+            <li onclick="languageolx('English')"> English </li>
+            <li onclick="languageolx('हिन्दी')">हिन्दी</li>
+          </ul>
+
+        </div>
+
+
+
+
+        <div class="message">
+          <a href="chat.html"><i class="fa-regular fa-comment"></i></a>
+        </div>
+
+
+
+
+        <div class="message">
+          <i class="fa-regular fa-bell"></i>
+        </div>
+        <div class="your_logo">
+          <div class="person_img" id="person_img_id">
+            <div>
+              <a class="button" href="#divOne">Login</a>
+            </div>
+
+            <div class="overlay" id="divOne">
+              <div class="wrapper">
+                <h2></h2><a class="close" href="#">&times;</a>
+                <div class="content">
+                  <div class="containerpopup">
+                    <img width="60%" src="C:\Users\shara\Downloads\loginEntryPointPost.png" alt="">
+
+                    <div class="continuephone">
+                      <i class="fa-solid fa-mobile"></i> <span>Continue with Phone</span>
+                    </div>
+
+                    <div class="continueemail">
+                      <i class="fa-brands fa-google"></i> <span>Continue with Google</span>
+                    </div>
+                    <br>
+                    <div>
+                      <p>OR</p>
+                    </div>
+                    <div class="loginwithemail_btn">
+                      <a href="signup.html">Login as User</a> ||
+                      <a href="adminLogin.html">Login as Admin</a>
+                    </div>
+
+                    <div>
+                      <p>All your personal details are safe with us.</p>
+                      <p>If you continue, you are accepting <a href="">OLX Terms and Conditions and Privacy Policy</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="selling_page">
+          <button id="goToSell"> <i class="fa-solid fa-plus"></i>
+            <p> SELL</p>
+          </button>
+        </div>
+
+
       </div>
-  
+    </div>
+
   </div>
-      
-  
+
+
   <!-- ====================================sub navbar=========================================== -->
-  
+
   <div class="sub_nav_bar">
-      <div class="ddmenu">
-          <div id="show_all_categories">All Categories <span><i class="fa-solid fa-chevron-down" id="cat"></i></span></div>
-          <div>Cars</div>
-          <div id="bikes">Motorcycles</div>
-          <div id="mobiles">Mobile Phones</div>
-          <div id="houses">For Sale:Houses & Apartments</div>
-          <div>OLX Renew(Mobile)</div>
-          <div>Scooters</div>
-          <div>Commercial & other Vehicles</div>
-          <div>For Rent: Houses & Apartments</div>
-      </div>
+    <div class="ddmenu">
+      <div id="show_all_categories">All Categories <span><i class="fa-solid fa-chevron-down" id="cat"></i></span></div>
+      <div>Cars</div>
+      <div id="bikes">Motorcycles</div>
+      <div id="mobiles">Mobile Phones</div>
+      <div id="houses">For Sale:Houses & Apartments</div>
+      <div>OLX Renew(Mobile)</div>
+      <div>Scooters</div>
+      <div>Commercial & other Vehicles</div>
+      <div>For Rent: Houses & Apartments</div>
+    </div>
   </div>
-  
+
   <!-- ====================================display submenus======================================== -->
-  
+
   <div class="all_categories">
-      <div class="allcatsubmenu">
-          <div class="all_cat_subflex">
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>OLX Autos (Cars)</span></a></div>
-              </div>
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Properties</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>For Sale:House & Apartments</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>For Rent:House & Apartments</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Lands & Plots</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>For Rent: Shops & Offices</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>For Sale:Shops & Offices</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>PG & Guest Houses</span></a></div>
-              </div>
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Mobiles</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Mobile Phones</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Accessories</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Tablets</span></a></div>
-              </div>
-          </div>
-          <div class="all_cat_subflex">
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Jobs</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Data entry & Back office</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Sales & Marketing</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>BPO & Telecaller</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Driver</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Office Assistant</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Delivery & Collection</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Teacher</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Cook</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Receptionist & Front office</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Operator & Technician</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>IT Engineer & Developer</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Hotel & Travel Executive</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Accountant</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Designer</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Other Jobs</span></a></div>
-              </div>
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Bikes</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Motorcycles</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Scooters</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Spare Parts</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Bicycles</span></a></div>
-              </div>
-          </div>
-          <div class="all_cat_subflex">
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Electronics & Appliances</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>TVs, Video - Audio</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Kitchen & Other Appliances</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Computer & Laptops</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Cameras & Lenses</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Game & Entertainment</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Fridges</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Computer Accessories</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Hard Disks, Printers & Monitors</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>ACs</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Washing Machines</span></a></div>
-              </div>
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Commercial Vehicles & Spares</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Commercial & Other Vehicles</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Spare Parts</span></a></div>
-              </div>
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Furniture</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Sofa & Dining</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Beds & Wardrobes</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Home Decor & Garden</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Kids Furniture</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Other Household Items</span></a></div>
-              </div>
-          </div>
-          <div class="all_cat_subflex">
-              <div class="catssubmenumainheading">
-                  <div class="catssubmenumainheading">
-                      <div class="subheading"><a href=""><span>Fashion</span></a> </div>
-                      <div class="subsubmenus"><a href=""><span>Men</span></a></div>
-                      <div class="subsubmenus"><a href=""><span>Women</span></a></div>
-                      <div class="subsubmenus"><a href=""><span>Kids</span></a></div>
-                  </div>
-                  <div class="subheading"><a href=""><span>Books, Sports & Hobbies</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Books</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Gym & Fitness</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Musical Instruments</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Sports Equipment</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Other Hobbies</span></a></div>
-              </div>
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Pets</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Fishing & Aquarium</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Pet Food & Accessories</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Dogs</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Other Pets</span></a></div>
-              </div>
-              <div class="catssubmenumainheading">
-                  <div class="subheading"><a href=""><span>Services</span></a> </div>
-                  <div class="subsubmenus"><a href=""><span>Electronics & Computer</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Education & Classes</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Drivers & Taxi</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Health & Beauty</span></a></div>
-                  <div class="subsubmenus"><a href=""><span>Other Services</span></a></div>
-              </div>
-              
-          </div>
+    <div class="allcatsubmenu">
+      <div class="all_cat_subflex">
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>OLX Autos (Cars)</span></a></div>
+        </div>
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Properties</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>For Sale:House & Apartments</span></a></div>
+          <div class="subsubmenus"><a href=""><span>For Rent:House & Apartments</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Lands & Plots</span></a></div>
+          <div class="subsubmenus"><a href=""><span>For Rent: Shops & Offices</span></a></div>
+          <div class="subsubmenus"><a href=""><span>For Sale:Shops & Offices</span></a></div>
+          <div class="subsubmenus"><a href=""><span>PG & Guest Houses</span></a></div>
+        </div>
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Mobiles</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Mobile Phones</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Accessories</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Tablets</span></a></div>
+        </div>
       </div>
+      <div class="all_cat_subflex">
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Jobs</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Data entry & Back office</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Sales & Marketing</span></a></div>
+          <div class="subsubmenus"><a href=""><span>BPO & Telecaller</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Driver</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Office Assistant</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Delivery & Collection</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Teacher</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Cook</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Receptionist & Front office</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Operator & Technician</span></a></div>
+          <div class="subsubmenus"><a href=""><span>IT Engineer & Developer</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Hotel & Travel Executive</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Accountant</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Designer</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Other Jobs</span></a></div>
+        </div>
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Bikes</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Motorcycles</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Scooters</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Spare Parts</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Bicycles</span></a></div>
+        </div>
+      </div>
+      <div class="all_cat_subflex">
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Electronics & Appliances</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>TVs, Video - Audio</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Kitchen & Other Appliances</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Computer & Laptops</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Cameras & Lenses</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Game & Entertainment</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Fridges</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Computer Accessories</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Hard Disks, Printers & Monitors</span></a></div>
+          <div class="subsubmenus"><a href=""><span>ACs</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Washing Machines</span></a></div>
+        </div>
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Commercial Vehicles & Spares</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Commercial & Other Vehicles</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Spare Parts</span></a></div>
+        </div>
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Furniture</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Sofa & Dining</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Beds & Wardrobes</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Home Decor & Garden</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Kids Furniture</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Other Household Items</span></a></div>
+        </div>
+      </div>
+      <div class="all_cat_subflex">
+        <div class="catssubmenumainheading">
+          <div class="catssubmenumainheading">
+            <div class="subheading"><a href=""><span>Fashion</span></a> </div>
+            <div class="subsubmenus"><a href=""><span>Men</span></a></div>
+            <div class="subsubmenus"><a href=""><span>Women</span></a></div>
+            <div class="subsubmenus"><a href=""><span>Kids</span></a></div>
+          </div>
+          <div class="subheading"><a href=""><span>Books, Sports & Hobbies</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Books</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Gym & Fitness</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Musical Instruments</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Sports Equipment</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Other Hobbies</span></a></div>
+        </div>
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Pets</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Fishing & Aquarium</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Pet Food & Accessories</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Dogs</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Other Pets</span></a></div>
+        </div>
+        <div class="catssubmenumainheading">
+          <div class="subheading"><a href=""><span>Services</span></a> </div>
+          <div class="subsubmenus"><a href=""><span>Electronics & Computer</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Education & Classes</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Drivers & Taxi</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Health & Beauty</span></a></div>
+          <div class="subsubmenus"><a href=""><span>Other Services</span></a></div>
+        </div>
+
+      </div>
+    </div>
   </div>
-    
-    <!-- * ----------------------Banner------------------------------ -->
 
-    <div id="banner_img_homepage">
-      <img src="https://statics.olx.in/olxin/banners/hero_bg_in_v3@1x.png" alt="" />
+  <!-- * ----------------------Banner------------------------------ -->
+
+  <div id="banner_img_homepage">
+    <img src="https://statics.olx.in/olxin/banners/hero_bg_in_v3@1x.png" alt="" />
+  </div>
+
+  <!--! ----------------------- advertisement ---------------------------- -->
+  <div id="advertisement_homepage_top">
+    <a href="https://www.bmw.in/en/index.html">
+      <img src="https://tpc.googlesyndication.com/simgad/7301218501868798019" alt="" /></a>
+  </div>
+
+  <!-- * ----------------- Based on latest serch ------------------ -->
+
+  <div id="homepage_top_parent">
+    <div id="homepage_top_parent_div">
+      <span class="head_span">Based on your last search</span>
+      <button onclick="viewmore()"><b>View more</b></button>
     </div>
-
-    <!--! ----------------------- advertisement ---------------------------- -->
-    <div id="advertisement_homepage_top">
-      <a href="https://www.bmw.in/en/index.html">
-        <img src="https://tpc.googlesyndication.com/simgad/7301218501868798019" alt=""/></a>
-    </div>
-
-    <!-- * ----------------- Based on latest serch ------------------ -->
-
-    <div id="homepage_top_parent">
-      <div id="homepage_top_parent_div">
-        <span class="head_span">Based on your last search</span>
-        <button onclick="viewmore()"><b>View more</b></button>
+    <div id="homepage_top_child">
+      <div>
+        <button class="head_button">
+          <i class="fa-solid fa-heart fa-grey"></i>
+        </button>
+        <!-- <span class="featured">Featured</span> -->
+        <div>
+          <img src="https://static.toiimg.com/thumb/resizemode-4,msid-81972618,width-1200,height-900/81972618.jpg"
+            alt="" />
+        </div>
+        <h3>₹ 20,000</h3>
+        <p class="first_p">Dell 5490 Latitude</p>
+        <p>Gurukul, Ahmedabad, Gujarat</p>
+        <p>Dec 06</p>
       </div>
-      <div id="homepage_top_child">
+      <div>
+        <button class="head_button">
+          <i class="fa-solid fa-heart fa-grey"></i>
+        </button>
         <div>
-          <button class="head_button">
-            <i class="fa-solid fa-heart fa-grey"></i>
-          </button>
-          <!-- <span class="featured">Featured</span> -->
-          <div>
-            <img
-              src="https://static.toiimg.com/thumb/resizemode-4,msid-81972618,width-1200,height-900/81972618.jpg"
-              alt=""
-            />
-          </div>
-          <h3>₹ 20,000</h3>
-          <p class="first_p">Dell 5490 Latitude</p>
-          <p>Gurukul, Ahmedabad, Gujarat</p>
-          <p>Dec 06</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhgWdxSmY2Ody4KOeoGSFa7d4qui_dl1Rlg&usqp=CAU"
+            alt="" />
         </div>
+        <h3>₹ 40,000</h3>
+        <p class="first_p">iphone 14/128gb</p>
+        <p>Surat Maha Nagar Palika, Surat</p>
+        <p>Today</p>
+      </div>
+      <div>
+        <button class="head_button">
+          <i class="fa-solid fa-heart fa-grey"></i>
+        </button>
         <div>
-          <button class="head_button">
-            <i class="fa-solid fa-heart fa-grey"></i>
-          </button>
-          <div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhgWdxSmY2Ody4KOeoGSFa7d4qui_dl1Rlg&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <h3>₹ 40,000</h3>
-          <p class="first_p">iphone 14/128gb</p>
-          <p>Surat Maha Nagar Palika, Surat</p>
-          <p>Today</p>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQEE3_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-ocean-ultra_VW_34FR_WF_CO_GEO_IN?wid=200&hei=200&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1661191675613%2C1660927566964%2C1661372043826"
+            alt="" />
         </div>
+        <h3>₹ 5,000</h3>
+        <p class="first_p">M8 Ultra 49mm in Series-8</p>
+        <p>Samudrapur, Maharashtra </p>
+        <p>Jan 16</p>
+      </div>
+      <div>
+        <button class="head_button">
+          <i class="fa-solid fa-heart fa-grey"></i>
+        </button>
         <div>
-          <button class="head_button">
-            <i class="fa-solid fa-heart fa-grey"></i>
-          </button>
-          <div>
-            <img
-              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQEE3_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-ocean-ultra_VW_34FR_WF_CO_GEO_IN?wid=200&hei=200&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1661191675613%2C1660927566964%2C1661372043826"
-              alt=""
-            />
-          </div>
-          <h3>₹ 5,000</h3>
-          <p class="first_p">M8 Ultra 49mm in Series-8</p>
-          <p>Samudrapur, Maharashtra </p>
-          <p>Jan 16</p>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MTgPSq5Kzy0zZcQEmorjDF3M_EEHaaCuQdk-ONPyrqASUVyVwHGKQEz9mbM64InbBGA&usqp=CAU"
+            alt="" />
         </div>
-        <div>
-          <button class="head_button">
-            <i class="fa-solid fa-heart fa-grey"></i>
-          </button>
-          <div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MTgPSq5Kzy0zZcQEmorjDF3M_EEHaaCuQdk-ONPyrqASUVyVwHGKQEz9mbM64InbBGA&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <h3>₹ 900</h3>
-          <p class="first_p">Analog Watch - For Girls</p>
-          <p>Samudrapur, Kolkata, India</p>
-          <p>Yesterday</p>
-        </div>
+        <h3>₹ 900</h3>
+        <p class="first_p">Analog Watch - For Girls</p>
+        <p>Samudrapur, Kolkata, India</p>
+        <p>Yesterday</p>
       </div>
     </div>
+  </div>
 
-    <!-- ! ----------------- Fresh recommendations --------------------- -->
+  <!-- ! ----------------- Fresh recommendations --------------------- -->
 
-    <div id="homepage_scnd_parent">
-      <span class="head_span">Fresh recommendations</span>
-      <div id="homepage_scnd_child"></div>
+  <div id="homepage_scnd_parent">
+    <span class="head_span">Fresh recommendations</span>
+    <div id="homepage_scnd_child"></div>
+  </div>
+  <!-- *----------------------- LOAD MORE ------------------------ -->
+  <button id="homepage_load_more"><b>Load More</b></button>
+  <div id="homepage_third_parent"></div>
+
+  <!--!----------------------------- ADVERTISEMENT DIV --------------------------------------->
+  <div id="homepage_advertisement_div">
+    <div id="homepage_advertisement_child_div">
+      <img
+        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1668269684/Croma%20Assets/Communication/Wearable%20Devices/Images/262097_0_qjbymq.png/mxw_2048,f_auto"
+        alt="" />
+      <img
+        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664569134/Croma%20Assets/Communication/Wearable%20Devices/Images/231216_0_huw2u5.png/mxw_2048,f_auto"
+        alt="" />
+      <img
+        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631047672/Croma%20Assets/Miscellanous/5K%20SKU_Images/Images/238498_bztx03.png/mxw_2048,f_auto"
+        alt="" />
+      <img
+        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664570011/Croma%20Assets/Communication/Wearable%20Devices/Images/256311_0_lq2ghq.png/mxw_2048,f_auto"
+        alt="" />
+      <img
+        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664569357/Croma%20Assets/Communication/Wearable%20Devices/Images/259933_0_bkxh8l.png/mxw_2048,f_auto"
+        alt="" />
+      <img
+        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1634203416/Croma%20Assets/Wearable/Wearable%20Devices/Images/243839_farwrg.png/mxw_2048,f_auto"
+        alt="" />
+      <img
+        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664570635/Croma%20Assets/Communication/Wearable%20Devices/Images/244133_0_zl379x.png/mxw_2048,f_auto"
+        alt="" />
     </div>
-    <!-- *----------------------- LOAD MORE ------------------------ -->
-    <button id="homepage_load_more"><b>Load More</b></button>
-    <div id="homepage_third_parent"></div>
-
-    <!--!----------------------------- ADVERTISEMENT DIV --------------------------------------->
-    <div id="homepage_advertisement_div">
-      <div id="homepage_advertisement_child_div">
-        <img
-          src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1668269684/Croma%20Assets/Communication/Wearable%20Devices/Images/262097_0_qjbymq.png/mxw_2048,f_auto"
-          alt=""
-        />
-        <img
-          src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664569134/Croma%20Assets/Communication/Wearable%20Devices/Images/231216_0_huw2u5.png/mxw_2048,f_auto"
-          alt=""
-        />
-        <img
-          src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631047672/Croma%20Assets/Miscellanous/5K%20SKU_Images/Images/238498_bztx03.png/mxw_2048,f_auto"
-          alt=""
-        />
-        <img
-          src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664570011/Croma%20Assets/Communication/Wearable%20Devices/Images/256311_0_lq2ghq.png/mxw_2048,f_auto"
-          alt=""
-        />
-        <img
-          src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664569357/Croma%20Assets/Communication/Wearable%20Devices/Images/259933_0_bkxh8l.png/mxw_2048,f_auto"
-          alt=""
-        />
-        <img
-          src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1634203416/Croma%20Assets/Wearable/Wearable%20Devices/Images/243839_farwrg.png/mxw_2048,f_auto"
-          alt=""
-        />
-        <img
-          src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664570635/Croma%20Assets/Communication/Wearable%20Devices/Images/244133_0_zl379x.png/mxw_2048,f_auto"
-          alt=""
-        />
-      </div>
-      <div id="homepage_advertisement_scnd_child_div">
-        <img src="./img/homepage_ad.png" alt="" />
-      </div>
+    <div id="homepage_advertisement_scnd_child_div">
+      <img src="./img/homepage_ad.png" alt="" />
     </div>
+  </div>
 
-    <!--* ----------------------- advertisement ---------------------------- -->
+  <!--* ----------------------- advertisement ---------------------------- -->
 
-    <div id="advertisement_homepage_bottom">
-      <a href="https://www.kayak.co.in/flights"
-        ><img src="./img/homepage_Advertisement.png" alt=""
-      /></a>
-    </div>
+  <div id="advertisement_homepage_bottom">
+    <a href="https://www.kayak.co.in/flights"><img src="./img/homepage_Advertisement.png" alt="" /></a>
+  </div>
 
-    <!-- <iframe
+  <!-- <iframe
       src="./footer.html"
       width="100%"
       height="249"
       frameborder="0"
     ></iframe> -->
-    <div class="footermain">
-      <div class="footercontent">
-          <div class="footerflex">
-              <div>POPULAR LOCATIONS</div>
-              <ul>
-                  <li>
-                      <a href="">Kolkata</a>
-                  </li>
-                  <li>
-                      <a href="">Mumbai</a>
-                  </li>
-                  <li>
-                      <a href="">Chennai</a>
-                  </li>
-                  <li>
-                      <a href="">Pune</a>
-                  </li>
-              </ul>
-          </div>
-          <div class="footerflex">
-              <div>TRENDING LOCATIONS</div>
-              <ul>
-                  <li>
-                      <a href="">Bhubaneshwar</a>
-                  </li>
-                  <li>
-                      <a href="">Hyderabad</a>
-                  </li>
-                  <li>
-                      <a href="">Chandigarh</a>
-                  </li>
-                  <li>
-                      <a href="">Nashik</a>
-                  </li>
-              </ul>
-          </div>
-          <div class="footerflex">
-              <div>ABOUT US</div>
-              <ul>
-                  <li>
-                      <a href="">About OLX Group</a>
-                  </li>
-                  <li>
-                      <a href="">Careers</a>
-                  </li>
-                  <li>
-                      <a href="">Contact Us</a>
-                  </li>
-                  <li>
-                      <a href="">OLXPeople</a>
-                  </li>
-                  <li>
-                      <a href="">Waah Jobs</a>
-                  </li>
-              </ul>
-          </div>
-          <div class="footerflex">
-              <div>OLX</div>
-              <ul>
-                  <li>
-                      <a href="">Help</a>
-                  </li>
-                  <li>
-                      <a href="">Sitemap</a>
-                  </li>
-                  <li>
-                      <a href="">Legal & Privacy Information</a>
-                  </li>
-                  <li>
-                      <a href="">Blog</a>
-                  </li>
-                  <li>
-                      <a href="">OLX Autos Sell Car</a>
-                  </li>
-              </ul>
-          </div>
-          <div class="footerflex">
-              <div>FOLLOW US</div>
-              <div class="footericons">
-                  <div><i class="fa fa-facebook"></i></div>
-                  <div><i class="fa fa-instagram"></i></div>
-                  <div><i class="fa fa-twitter"></i></div>
-                  <div><i class="fa fa-play"></i></div>
-              </div>
-              <div>
-                  <img src="https://statics.olx.in/external/base/img/playstore.png" alt="">
-                  <img src="https://statics.olx.in/external/base/img/appstore.png" alt="">
-              </div>
-                 
-          </div>
+  <div class="footermain">
+    <div class="footercontent">
+      <div class="footerflex">
+        <div>POPULAR LOCATIONS</div>
+        <ul>
+          <li>
+            <a href="">Kolkata</a>
+          </li>
+          <li>
+            <a href="">Mumbai</a>
+          </li>
+          <li>
+            <a href="">Chennai</a>
+          </li>
+          <li>
+            <a href="">Pune</a>
+          </li>
+        </ul>
       </div>
+      <div class="footerflex">
+        <div>TRENDING LOCATIONS</div>
+        <ul>
+          <li>
+            <a href="">Bhubaneshwar</a>
+          </li>
+          <li>
+            <a href="">Hyderabad</a>
+          </li>
+          <li>
+            <a href="">Chandigarh</a>
+          </li>
+          <li>
+            <a href="">Nashik</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footerflex">
+        <div>ABOUT US</div>
+        <ul>
+          <li>
+            <a href="">About OLX Group</a>
+          </li>
+          <li>
+            <a href="">Careers</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+          <li>
+            <a href="">OLXPeople</a>
+          </li>
+          <li>
+            <a href="">Waah Jobs</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footerflex">
+        <div>OLX</div>
+        <ul>
+          <li>
+            <a href="">Help</a>
+          </li>
+          <li>
+            <a href="">Sitemap</a>
+          </li>
+          <li>
+            <a href="">Legal & Privacy Information</a>
+          </li>
+          <li>
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">OLX Autos Sell Car</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footerflex">
+        <div>FOLLOW US</div>
+        <div class="footericons">
+          <div><i class="fa fa-facebook"></i></div>
+          <div><i class="fa fa-instagram"></i></div>
+          <div><i class="fa fa-twitter"></i></div>
+          <div><i class="fa fa-play"></i></div>
+        </div>
+        <div>
+          <img src="https://statics.olx.in/external/base/img/playstore.png" alt="">
+          <img src="https://statics.olx.in/external/base/img/appstore.png" alt="">
+        </div>
+
+      </div>
+    </div>
   </div>
   <div class="copyright">
-      <div class="copyrightflex">
-          <p>Other Countries :  Pakistan - South Africa - Indonesia</p>
-          <p>All right reserved & copy: 2006-2022 MAD</p>
-      </div>
+    <div class="copyrightflex">
+      <p>Other Countries : Pakistan - South Africa - Indonesia</p>
+      <p>All right reserved & copy: 2006-2022 MAD</p>
+    </div>
   </div>
 
 
-   
-  </body>
+
+</body>
+
 </html>
 <script src="./scripts/index.js"></script>
 <script src="./scripts/navbar.js"></script>

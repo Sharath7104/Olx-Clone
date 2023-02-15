@@ -313,9 +313,6 @@
   
    /* SMALL SCREEN */
    @media screen and (max-width: 770px) {
-    body {
-      background: yellow;
-    }
     #banner_img_homepage img {
       height: 0px;
     }
@@ -402,9 +399,6 @@
   }
   
   @media screen and (max-width: 576px) {
-    body {
-      background: red;
-    }
     #advertisement_homepage_top img{
       width: 70%;
       margin: 15px 0px 0px 60px;

@@ -1,52 +1,84 @@
-*{
-    font-family:Roboto,sans-serif,Arial, Helvetica, sans-serif;
-    color: rgba(0, 47, 52, 0.64);
-    /* font-size: 14px; */
+* {
+    font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
-#product{
+
+#product {
     width: 80%;
     display: flex;
     margin: auto;
-    margin-top: 120px;
-}
-#categories{
-    width: 25%;
-    border: 0px solid red;
-}
-#cards{
-    width: 75%;
-    border: 0px solid green;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px; 
-}
-.card{
-    width: 100%;
-    height: 320px;
-    margin: auto;
-    /* line-height: 15px; */
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    border-radius: 10px;
-    text-align: 20px; 
-    padding: 5px;
+    margin-top: 40px;
 }
 
-.card h5{
-    /* margin-top: -8px; */
+#categories {
+    width: 25%;
+}
+
+#cards {
+    display: grid;
+    width: 75%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px;
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 100%;
+    height: 340px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    text-align: 20px;
+    padding: 5px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.card h5 {
     font-weight: 600;
+    padding: 5px 20px;
+    color: rgb(129, 129, 129);
 }
-.card h2{
+
+.card h2 {
     font-weight: 900;
+    padding: 5px 20px;
+    color: rgb(113, 113, 113);
+    font-size: 20px;
 }
-.cardimg{
-    height: 150px;
-    padding:0px 30px;
-    margin-left: 20px;
+
+.card h4 {
+    padding: 0 20px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
 }
-.cardimg img{
-   height: 100%;
-   width: 80%;
-   border-radius: 5px;
+
+.cardimg {
+    height: 160px;
+    padding: 10px 50px;
+}
+
+.cardimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    padding: 5px 20px;
+    margin-top: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(169, 169, 169);
+    background: transparent;
+
+}
+.btn:hover{
+    background: orange;
+    color: white;
 }

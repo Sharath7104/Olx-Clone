@@ -89,6 +89,7 @@ function displayProducts(res){
         location.innerText = el.location;
         
         let button = document.createElement("button");
+        button.classList.add("btn");
         button.innerText = "See Details";
         // button.style.Cursor="pointer";
         button.addEventListener("click",function(){

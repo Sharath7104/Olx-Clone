@@ -9,19 +9,21 @@ body{
 
 #change{
     /* width: 20%; */
-    padding: 10px 5px;
+    padding: 20px 10px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 
 }
 #filters h4,input, hr, .scroll{
     margin-bottom: 10px;
 }
 
-/* .scroll{
-    overflow-y: scroll;
-    height: 100px;
-    width: 100%;
-} */
+input{
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid gray;
+}
 .labels>div{
     display: flex;
     justify-content: space-between;
